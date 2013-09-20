@@ -1,0 +1,28 @@
+2011-05-25 16:22:17,726 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-25 16:22:18,296 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 200
+2011-05-25 16:22:18,506 INFO org.apache.hadoop.mapred.MapTask: data buffer = 159383552/199229440
+2011-05-25 16:22:18,506 INFO org.apache.hadoop.mapred.MapTask: record buffer = 524288/655360
+2011-05-25 16:22:18,617 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Usage threshold exceeded) init = 35717120(34880K) used = 207093792(202240K) committed = 235012096(229504K) max = 279642112(273088K)
+2011-05-25 16:22:18,707 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211206800(206256K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:19,697 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211228992(206278K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:19,946 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211229752(206279K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:20,169 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190368(206240K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:20,310 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190888(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:20,473 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191408(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:20,703 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191680(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:20,923 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190312(206240K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:21,124 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191016(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:21,328 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191528(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:21,542 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191984(206242K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:21,763 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190672(206240K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:21,971 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191344(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:22,192 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191840(206242K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:22,566 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211260240(206308K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:23,092 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211246552(206295K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:23,347 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211246976(206295K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:23,587 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211247520(206296K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:23,841 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211248120(206296K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:22:23,967 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2011-05-25 16:22:25,032 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2011-05-25 16:22:25,038 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0033_m_000002_0 is done. And is in the process of commiting
+2011-05-25 16:22:25,041 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0033_m_000002_0' done.

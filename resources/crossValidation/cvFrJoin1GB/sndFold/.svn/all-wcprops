@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rmogrovejo/!svn/ver/147/HadoopMultipleRegressionModel/trunk/resources/crossValidation/cvFrJoin1GB/sndFold
+END
+copyQueries.sh
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/rmogrovejo/!svn/ver/147/HadoopMultipleRegressionModel/trunk/resources/crossValidation/cvFrJoin1GB/sndFold/copyQueries.sh
+END
+trainingQuery.Lst
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/rmogrovejo/!svn/ver/147/HadoopMultipleRegressionModel/trunk/resources/crossValidation/cvFrJoin1GB/sndFold/trainingQuery.Lst
+END
+predictingQuery.Lst
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/rmogrovejo/!svn/ver/147/HadoopMultipleRegressionModel/trunk/resources/crossValidation/cvFrJoin1GB/sndFold/predictingQuery.Lst
+END

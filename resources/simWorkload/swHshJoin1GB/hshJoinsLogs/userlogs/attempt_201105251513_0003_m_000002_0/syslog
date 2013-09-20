@@ -1,0 +1,3 @@
+2011-05-25 15:59:39,193 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-25 15:59:39,491 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0003_m_000002_0 is done. And is in the process of commiting
+2011-05-25 15:59:39,495 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0003_m_000002_0' done.

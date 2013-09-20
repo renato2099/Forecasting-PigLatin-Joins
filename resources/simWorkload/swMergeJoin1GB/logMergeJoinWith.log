@@ -1,0 +1,958 @@
+2.0	26313.0	31.0	21.04	
+4.0	2.29215492E8	1920802.0	57.054	
+10.0	8.63139827E8	1441553.0	9835.619	
+6.0	3.07407478E8	73054.0	51.076	
+12.0	3.90673649E8	2880410.0	105.194	
+6.0	3.07407478E8	73054.0	63.269000000000005	
+2.0	17328.0	61.0	21.033	
+2.0	3339.0	21.0	21.034	
+2.0	2.6549816E7	100001.0	24.025	
+2.0	1.1135402E7	50001.0	24.023	
+12.0	3.90673649E8	2880410.0	111.362	
+4.0	2.29215492E8	1920802.0	63.107	
+12.0	3.90673649E8	2880410.0	111.165	
+2.0	17328.0	61.0	21.03	
+2.0	2.0765948E7	73050.0	24.034	
+2.0	111699.0	301.0	15.016	
+2.0	1.0346632E7	86401.0	24.034	
+2.0	1.1135402E7	50001.0	24.079	
+2.0	1.023487E7	18001.0	21.021	
+2.0	2.6549816E7	100001.0	24.077	
+2.0	2.0765948E7	73050.0	24.055	
+2.0	2.0765948E7	73050.0	24.018	
+2.0	3339.0	21.0	15.02	
+2.0	4017.0	36.0	15.019	
+2.0	17328.0	61.0	21.031	
+6.0	3.07407478E8	73054.0	51.126999999999995	
+2.0	2.6549816E7	100001.0	24.031	
+10.0	8.63139827E8	1441553.0	9802.564	
+2.0	9465.0	13.0	21.019	
+2.0	1.1135402E7	50001.0	24.042	
+2.0	3339.0	21.0	21.024	
+4.0	2.29215492E8	1920802.0	66.07499999999999	
+5.0	2.5791595E8	1.1745001E7	138.236	
+2.0	434378.0	7201.0	21.02	
+13.0	8.63139827E8	1441553.0	11355.318000000001	
+11/05/30 20:55:26 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+11/05/30 20:55:26 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:26 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:26 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:27 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:27 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:27 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:28 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:31 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:33 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:34 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:34 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:34 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:37 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:37 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:38 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:38 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:38 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:41 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:43 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:43 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:43 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:45 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:45 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:45 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:45 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:45 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:51 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:52 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:53 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:53 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:53 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:53 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:53 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:55:58 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:00 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:02 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:02 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:03 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:03 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:04 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:05 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:05 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:05 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:06 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:07 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:07 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:07 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:07 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:07 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:11 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:11 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:11 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:12 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:13 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:13 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:13 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:14 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:17 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:18 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:18 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:18 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:19 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:20 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:20 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:20 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:21 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:21 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:22 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:23 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:23 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:23 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:24 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:25 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:25 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:25 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:25 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:25 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:29 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:30 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:31 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:32 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:35 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:35 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:36 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:36 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:37 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:39 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:40 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:42 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:44 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:46 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:46 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:46 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:48 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:49 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:49 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:49 INFO input.FileInputFormat: Total input paths to process : 1
+23H00M22S711719527.5X.query.20.catalog_sales.date_dim.1.1.pig	 Selectivity	2.032549512274645E-6
+23H00M22S739900650.5X.query.31.customer_address.customer_address.1.1.pig	 Selectivity	2.5442263318061734E-6
+23H00M22S749737034.5X.query.31.ship_mode.ship_mode.1.1.pig	 Selectivity	0.00909090909090909
+23H00M22S765425924.5X.query.20.catalog_sales.date_dim.1.1.pig	 Selectivity	2.0234905205131674E-6
+23H00M22S769835118.5X.query.31.customer_address.customer_address.1.1.pig	 Selectivity	3.26196045502709E-6
+23H00M22S774315978.5X.query.31.ship_mode.ship_mode.1.1.pig	 Selectivity	0.0075
+23H00M22S778761582.5X.query.20.catalog_sales.date_dim.1.1.pig	 Selectivity	2.0503746744103063E-6
+23H00M22S783877762.5X.query.31.customer_address.customer_address.1.1.pig	 Selectivity	3.1334099941495695E-6
+23H00M22S790326065.5X.query.31.ship_mode.ship_mode.1.1.pig	 Selectivity	0.010185185185185186
+23H00M22S794768655.3X.query.31.store_sales.store_sales.10.10.pig	 Selectivity	9.063710931954558E-8
+23H00M22S806215688.3X.query.31.web_page.web_page.1.1.pig	 Selectivity	0.002380952380952381
+23H00M22S810637293.3X.query.33.catalog_sales.catalog_sales.1.1.pig	 Selectivity	2.0088819007580092E-7
+23H00M22S818605674.3X.query.33.customer.customer.1.1.pig	 Selectivity	1.4692988631990011E-6
+23H00M22S828524125.3X.query.33.customer_demographics.customer_demographics.1.1.pig	 Selectivity	8.186969400074532E-8
+23H00M22S836127344.3X.query.33.date_dim.date_dim.1.1.pig	 Selectivity	2.0155231610091446E-6
+23H00M22S840648141.3X.query.31.store_sales.store_sales.10.10.pig	 Selectivity	3.239316051920324E-7
+23H00M22S845299434.3X.query.31.web_page.web_page.1.1.pig	 Selectivity	0.002011494252873563
+23H00M22S849781429.3X.query.33.catalog_sales.catalog_sales.1.1.pig	 Selectivity	9.457141184372983E-7
+23H00M22S854471926.3X.query.33.customer.customer.1.1.pig	 Selectivity	1.468619375146913E-6
+23H00M22S858905840.3X.query.33.customer_demographics.customer_demographics.1.1.pig	 Selectivity	8.000764607352575E-8
+23H00M22S863444244.3X.query.33.date_dim.date_dim.1.1.pig	 Selectivity	2.072185850771906E-6
+23H00M22S867835733.3X.query.31.store_sales.store_sales.10.10.pig	 Selectivity	3.532655320699293E-7
+23H00M22S872150120.3X.query.31.web_page.web_page.1.1.pig	 Selectivity	0.0019444444444444444
+23H00M22S876447233.3X.query.33.catalog_sales.catalog_sales.1.1.pig	 Selectivity	9.273102977332689E-7
+23H00M22S880693099.3X.query.33.customer.customer.1.1.pig	 Selectivity	1.593893256445892E-6
+23H00M22S885249223.3X.query.33.customer_demographics.customer_demographics.1.1.pig	 Selectivity	7.83597802043565E-8
+23H00M22S889488089.3X.query.33.date_dim.date_dim.1.1.pig	 Selectivity	2.037868463939991E-6
+23H00M22S893995180.1X.query.33.household_demographics.household_demographics.1.1.pig	 Selectivity	2.077851564131479E-5
+23H00M22S898411798.1X.query.33.item.item.1.1.pig	 Selectivity	8.302819592029518E-6
+23H00M22S902852171.1X.query.33.promotion.promotion.1.1.pig	 Selectivity	4.821802935010482E-4
+23H00M22S910097485.1X.query.33.reason.reason.1.1.pig	 Selectivity	0.004132231404958678
+23H00M22S914432007.1X.query.33.store.store.2.2.pig	 Selectivity	0.022727272727272728
+23H00M22S923304385.1X.query.33.time_dim.time_dim.1.1.pig	 Selectivity	1.703720410257267E-6
+23H00M22S935450274.1X.query.5.inventory.date_dim.1.1.pig	 Selectivity	2.2175606274623916E-6
+23H00M22S939791086.1X.query.75.web_site.web_site.1.1.pig	 Selectivity	0.005747126436781609
+sumErr / n 3.767906621630703E-13
+sumAbsErr / n 756.8788773792285
+sumAbsPercentErr / n 18.868352394024335
+sumErrSquared / n 1273914.8162659123
+sumAbsErr 26490.760708272996
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+11/05/30 20:56:50 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+11/05/30 20:56:50 INFO input.FileInputFormat: Total input paths to process : 1
+Multiple variable linear regression model with the following equation:
+  y=518.0063880625937-516.4327047613797*TOTAL_LAUNCHED_MAPS+1.675462426479958E-5*HDFS_BYTES_READ-2.230906099002266E-4*MAP_INPUT_RECORDS
+query.31.customer_address.customer_address.1.1.pig	 160.89402224528052
+query.33.catalog_sales.catalog_sales.1.1.pig	 1005.5556392205679
+query.33.customer.customer.1.1.pig	 400.04657234268353
+query.33.item.item.1.1.pig	 162.29368156213818
+query.5.inventory.date_dim.1.1.pig	 -1910.1243809491211
+forecastWOJoinSelectivity -> 85.378
+

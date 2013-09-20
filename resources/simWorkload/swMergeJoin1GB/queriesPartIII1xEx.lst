@@ -1,0 +1,8 @@
+query.33.household_demographics.household_demographics.1.1.pig
+query.33.item.item.1.1.pig
+query.33.promotion.promotion.1.1.pig
+query.33.reason.reason.1.1.pig
+query.33.store.store.2.2.pig
+query.33.time_dim.time_dim.1.1.pig
+query.5.inventory.date_dim.1.1.pig
+query.75.web_site.web_site.1.1.pig

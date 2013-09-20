@@ -1,0 +1,770 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swMergeJoin1GB/mrgJoinsLogs/userlogs
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+attempt_201105280114_0001_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0001_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0001_m_000005_0
+dir
+
+
+
+add
+
+attempt_201105280114_0001_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0001_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0005_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0005_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0005_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0005_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0007_m_000004_0
+dir
+
+
+
+add
+
+attempt_201105280114_0008_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0008_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0008_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0013_m_000004_0
+dir
+
+
+
+add
+
+attempt_201105280114_0019_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0019_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0020_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0020_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0023_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0023_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0023_m_000005_0
+dir
+
+
+
+add
+
+attempt_201105280114_0023_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0023_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0024_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0024_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0027_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0028_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0031_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0031_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0031_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0031_m_000007_0
+dir
+
+
+
+add
+
+attempt_201105280114_0031_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0032_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0032_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0032_m_000007_0
+dir
+
+
+
+add
+
+attempt_201105280114_0033_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0033_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0033_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0033_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0034_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0034_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0034_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0035_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0035_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0036_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0036_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0036_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0037_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0037_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0037_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0037_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0039_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0039_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0039_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0039_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0041_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0041_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0041_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0041_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0042_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0042_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0042_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0043_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0043_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0043_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0043_m_000007_0
+dir
+
+
+
+add
+
+attempt_201105280114_0043_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0044_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0044_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0044_m_000007_0
+dir
+
+
+
+add
+
+attempt_201105280114_0045_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0045_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0045_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0045_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0046_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0046_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0046_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0047_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0047_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0047_m_000005_0
+dir
+
+
+
+add
+
+attempt_201105280114_0047_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0047_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0048_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0048_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0048_m_000006_0
+dir
+
+
+
+add
+
+attempt_201105280114_0051_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0052_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0052_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0052_m_000003_0
+dir
+
+
+
+add
+
+attempt_201105280114_0053_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0053_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0053_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0053_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0062_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0062_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0062_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0065_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0065_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0065_m_000002_0
+dir
+
+
+
+add
+
+attempt_201105280114_0065_r_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0068_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0068_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0068_m_000005_0
+dir
+
+
+
+add
+
+attempt_201105280114_0070_m_000000_0
+dir
+
+
+
+add
+
+attempt_201105280114_0070_m_000001_0
+dir
+
+
+
+add
+
+attempt_201105280114_0070_m_000002_0
+dir
+
+
+
+add
+

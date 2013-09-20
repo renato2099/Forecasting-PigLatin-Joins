@@ -1,0 +1,4 @@
+2011-05-27 03:06:29,877 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=CLEANUP, sessionId=
+2011-05-27 03:06:30,457 INFO org.apache.hadoop.mapred.TaskRunner: Runnning cleanup for the task
+2011-05-27 03:06:30,465 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0170_m_000004_3 is done. And is in the process of commiting
+2011-05-27 03:06:30,475 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0170_m_000004_3' done.

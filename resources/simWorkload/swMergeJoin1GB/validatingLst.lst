@@ -1,0 +1,5 @@
+query.31.customer_address.customer_address.1.1.pig
+query.33.catalog_sales.catalog_sales.1.1.pig
+query.33.customer.customer.1.1.pig
+query.33.item.item.1.1.pig
+query.5.inventory.date_dim.1.1.pig

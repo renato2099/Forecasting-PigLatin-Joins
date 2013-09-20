@@ -1,0 +1,147 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swMergeJoin1GB/queryRepository
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+query.31.ship_mode.ship_mode.1.1.pig
+file
+
+
+
+add
+
+query.31.store_sales.store_sales.10.10.pig
+file
+
+
+
+add
+
+query.31.web_page.web_page.1.1.pig
+file
+
+
+
+add
+
+query.33.catalog_sales.catalog_sales.1.1.pig
+file
+
+
+
+add
+
+query.33.customer.customer.1.1.pig
+file
+
+
+
+add
+
+query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+query.33.date_dim.date_dim.1.1.pig
+file
+
+
+
+add
+
+query.33.household_demographics.household_demographics.1.1.pig
+file
+
+
+
+add
+
+query.33.item.item.1.1.pig
+file
+
+
+
+add
+
+query.33.promotion.promotion.1.1.pig
+file
+
+
+
+add
+
+query.33.reason.reason.1.1.pig
+file
+
+
+
+add
+
+query.33.store.store.2.2.pig
+file
+
+
+
+add
+
+query.33.time_dim.time_dim.1.1.pig
+file
+
+
+
+add
+
+query.5.inventory.date_dim.1.1.pig
+file
+
+
+
+add
+
+query.75.web_site.web_site.1.1.pig
+file
+
+
+
+add
+

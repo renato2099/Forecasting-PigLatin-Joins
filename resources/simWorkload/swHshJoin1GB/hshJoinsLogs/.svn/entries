@@ -1,0 +1,1673 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swHshJoin1GB/hshJoinsLogs
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+history
+dir
+
+
+
+add
+
+job_201105251513_0001_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0002_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0003_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0004_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0005_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0006_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0007_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0008_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0009_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0010_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0011_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0012_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0013_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0014_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0015_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0016_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0017_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0018_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0019_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0020_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0021_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0022_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0023_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0024_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0025_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0026_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0027_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0028_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0029_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0030_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0031_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0032_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0033_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0034_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0035_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0036_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0037_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0038_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0039_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0040_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0042_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0043_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0044_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0045_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0046_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0047_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0048_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0049_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0050_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0051_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0052_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0053_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0054_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0055_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0056_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0057_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0058_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0059_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0060_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0061_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0062_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0063_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0064_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0065_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0066_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0067_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0068_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0069_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0070_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0071_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0072_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0073_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0074_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0075_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0076_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0077_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0078_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0079_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0080_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0081_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0082_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0083_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0084_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0085_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0086_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0087_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0088_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0089_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0090_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0091_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0092_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0093_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0094_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0095_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0096_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0097_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0098_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0099_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0100_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0101_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0102_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0103_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0104_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0105_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0106_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0107_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0108_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0109_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0110_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0111_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0112_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0113_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0114_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0115_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0116_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0117_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0118_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0119_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0120_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0121_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0122_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0123_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0124_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0125_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0126_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0127_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0128_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0129_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0130_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0131_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0132_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0133_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0134_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0135_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0137_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0138_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0139_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0140_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0141_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0142_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0143_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0144_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0145_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0146_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0147_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0148_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0149_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0150_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0151_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0152_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0153_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0154_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0155_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0156_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0157_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0158_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0159_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0160_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0161_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0162_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0163_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0164_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0165_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0166_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0167_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0168_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0169_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0170_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0171_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0172_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0173_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0174_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0175_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0176_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0177_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0178_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0179_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0180_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0181_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0182_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0183_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0184_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0185_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0186_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0187_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0188_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0189_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0190_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0191_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0192_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0193_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0194_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0195_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0196_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0198_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0199_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0200_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0201_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0202_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0203_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0204_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0205_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0206_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0207_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0208_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0209_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0210_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0211_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0212_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0213_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0214_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0215_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0216_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0217_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0218_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0219_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0220_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0221_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0222_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0223_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0224_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0225_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0226_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0227_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0228_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0229_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0230_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0231_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0232_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0233_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0234_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0235_conf.xml
+file
+
+
+
+add
+
+job_201105251513_0236_conf.xml
+file
+
+
+
+add
+
+userlogs
+dir
+
+
+
+add
+

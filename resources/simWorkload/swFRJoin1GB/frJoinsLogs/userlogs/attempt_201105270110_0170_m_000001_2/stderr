@@ -1,0 +1,32 @@
+Exception in thread "Timer thread for monitoring jvm" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.StringCoding$StringEncoder.encode(StringCoding.java:250)
+	at java.lang.StringCoding.encode(StringCoding.java:290)
+	at java.lang.StringCoding.encode(StringCoding.java:302)
+	at java.lang.String.getBytes(String.java:994)
+	at org.apache.hadoop.metrics.ganglia.GangliaContext.xdr_string(GangliaContext.java:216)
+	at org.apache.hadoop.metrics.ganglia.GangliaContext.emitMetric(GangliaContext.java:157)
+	at org.apache.hadoop.metrics.ganglia.GangliaContext.emitRecord(GangliaContext.java:139)
+	at org.apache.hadoop.metrics.spi.AbstractMetricsContext.emitRecords(AbstractMetricsContext.java:306)
+	at org.apache.hadoop.metrics.spi.AbstractMetricsContext.timerEvent(AbstractMetricsContext.java:292)
+	at org.apache.hadoop.metrics.spi.AbstractMetricsContext.access$000(AbstractMetricsContext.java:52)
+	at org.apache.hadoop.metrics.spi.AbstractMetricsContext$1.run(AbstractMetricsContext.java:251)
+	at java.util.TimerThread.mainLoop(Timer.java:534)
+	at java.util.TimerThread.run(Timer.java:484)
+Exception in thread "main" org.apache.hadoop.ipc.RemoteException: java.io.IOException: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.TaskTracker.fatalError(TaskTracker.java:2616)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:416)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:740)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:220)
+	at org.apache.hadoop.mapred.$Proxy0.fatalError(Unknown Source)
+	at org.apache.hadoop.mapred.Child.main(Child.java:210)
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.hdfs.DFSClient).
+log4j:WARN Please initialize the log4j system properly.

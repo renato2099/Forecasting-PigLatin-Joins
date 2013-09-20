@@ -1,0 +1,12 @@
+Exception in thread "Low Memory Detector" java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOfRange(Arrays.java:3221)
+	at java.lang.String.<init>(String.java:233)
+	at java.lang.StringBuffer.toString(StringBuffer.java:602)
+	at java.lang.management.MemoryUsage.toString(MemoryUsage.java:248)
+	at java.lang.String.valueOf(String.java:2838)
+	at java.lang.StringBuilder.append(StringBuilder.java:132)
+	at org.apache.pig.impl.util.SpillableMemoryManager.handleNotification(SpillableMemoryManager.java:147)
+	at sun.management.NotificationEmitterSupport.sendNotification(NotificationEmitterSupport.java:156)
+	at sun.management.MemoryImpl.createNotification(MemoryImpl.java:189)
+	at sun.management.MemoryPoolImpl$CollectionSensor.triggerAction(MemoryPoolImpl.java:328)
+	at sun.management.Sensor.trigger(Sensor.java:137)

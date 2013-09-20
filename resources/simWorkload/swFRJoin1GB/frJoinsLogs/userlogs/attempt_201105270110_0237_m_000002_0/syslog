@@ -1,0 +1,6 @@
+2011-05-27 03:43:17,694 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-27 03:43:18,069 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0237_m_000002_0 is done. And is in the process of commiting
+2011-05-27 03:43:18,078 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0237_m_000002_0' done.
+2011-05-27 03:43:26,257 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=MAP, sessionId= - already initialized
+2011-05-27 03:43:26,290 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0237_m_000001_0 is done. And is in the process of commiting
+2011-05-27 03:43:26,305 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0237_m_000001_0' done.

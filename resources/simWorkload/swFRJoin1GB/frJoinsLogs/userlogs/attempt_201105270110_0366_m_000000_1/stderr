@@ -1,0 +1,21 @@
+Exception in thread "IPC Client (47) connection to berlin.labbio/10.87.5.102:54310 from hadoop" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.ThreadLocal$ThreadLocalMap.<init>(ThreadLocal.java:329)
+	at java.lang.ThreadLocal.createMap(ThreadLocal.java:225)
+	at java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:166)
+	at java.lang.ThreadLocal.get(ThreadLocal.java:150)
+	at sun.nio.ch.Util.getTemporaryDirectBuffer(Util.java:64)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:254)
+	at org.apache.hadoop.net.SocketInputStream$Reader.performIO(SocketInputStream.java:55)
+	at org.apache.hadoop.net.SocketIOWithTimeout.doIO(SocketIOWithTimeout.java:142)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:155)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:276)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:501)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:446)
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.mapred.TaskRunner).
+log4j:WARN Please initialize the log4j system properly.

@@ -1,0 +1,320 @@
+Meta VERSION="1" .
+Job JOBID="job_201105251513_0170" JOBNAME="PigLatin:22H55M55S597817007\.3X\.query\.31\.inventory\.inventory\.2\.2\.pig" USER="hadoop" SUBMIT_TIME="1306385586461" JOBCONF="hdfs://berlin\.labbio:54310/mnt/hadoop-tmp/dir/hadoop-hadoop/mapred/system/job_201105251513_0170/job\.xml" .
+Job JOBID="job_201105251513_0170" JOB_PRIORITY="NORMAL" .
+Job JOBID="job_201105251513_0170" LAUNCH_TIME="1306385587000" TOTAL_MAPS="8" TOTAL_REDUCES="2" JOB_STATUS="PREP" .
+Task TASKID="task_201105251513_0170_m_000009" TASK_TYPE="SETUP" START_TIME="1306385588060" SPLITS="" .
+MapAttempt TASK_TYPE="SETUP" TASKID="task_201105251513_0170_m_000009" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000009_0" START_TIME="1306385081754" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="SETUP" TASKID="task_201105251513_0170_m_000009" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000009_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306385082943" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="setup" COUNTERS="{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(SPILLED_RECORDS)(Spilled Records)(0)]}" .
+Task TASKID="task_201105251513_0170_m_000009" TASK_TYPE="SETUP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385591062" COUNTERS="{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(SPILLED_RECORDS)(Spilled Records)(0)]}" .
+Job JOBID="job_201105251513_0170" JOB_STATUS="RUNNING" .
+Task TASKID="task_201105251513_0170_m_000000" TASK_TYPE="MAP" START_TIME="1306385591063" SPLITS="/default-rack/berlin\.labbio,/default-rack/damasco\.labbio,/default-rack/moscou\.labbio" .
+Task TASKID="task_201105251513_0170_m_000001" TASK_TYPE="MAP" START_TIME="1306385591064" SPLITS="/default-rack/berlin\.labbio,/default-rack/moscou\.labbio,/default-rack/damasco\.labbio" .
+Task TASKID="task_201105251513_0170_m_000002" TASK_TYPE="MAP" START_TIME="1306385591438" SPLITS="/default-rack/berlin\.labbio,/default-rack/damasco\.labbio,/default-rack/moscou\.labbio" .
+Task TASKID="task_201105251513_0170_m_000003" TASK_TYPE="MAP" START_TIME="1306385591438" SPLITS="/default-rack/berlin\.labbio,/default-rack/damasco\.labbio,/default-rack/moscou\.labbio" .
+Task TASKID="task_201105251513_0170_m_000004" TASK_TYPE="MAP" START_TIME="1306385592754" SPLITS="/default-rack/berlin\.labbio,/default-rack/moscou\.labbio,/default-rack/damasco\.labbio" .
+Task TASKID="task_201105251513_0170_m_000005" TASK_TYPE="MAP" START_TIME="1306385592755" SPLITS="/default-rack/berlin\.labbio,/default-rack/damasco\.labbio,/default-rack/moscou\.labbio" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000004" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000004_0" START_TIME="1306385593078" TRACKER_NAME="tracker_berlin\.labbio:localhost/127\.0\.0\.1:38958" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000004" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000004_0" TASK_STATUS="FAILED" FINISH_TIME="1306385595758" HOSTNAME="berlin\.labbio" ERROR="Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+,Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_0" START_TIME="1306385593137" TRACKER_NAME="tracker_berlin\.labbio:localhost/127\.0\.0\.1:38958" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_0" TASK_STATUS="FAILED" FINISH_TIME="1306385595758" HOSTNAME="berlin\.labbio" ERROR="Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+,Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+" .
+Task TASKID="task_201105251513_0170_m_000006" TASK_TYPE="MAP" START_TIME="1306385601764" SPLITS="/default-rack/berlin\.labbio,/default-rack/moscou\.labbio,/default-rack/damasco\.labbio" .
+Task TASKID="task_201105251513_0170_m_000007" TASK_TYPE="MAP" START_TIME="1306385601765" SPLITS="/default-rack/berlin\.labbio,/default-rack/moscou\.labbio,/default-rack/damasco\.labbio" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000006" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000006_0" START_TIME="1306385601799" TRACKER_NAME="tracker_berlin\.labbio:localhost/127\.0\.0\.1:38958" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000006" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000006_0" TASK_STATUS="FAILED" FINISH_TIME="1306385604782" HOSTNAME="berlin\.labbio" ERROR="Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+,Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000007" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000007_0" START_TIME="1306385601920" TRACKER_NAME="tracker_berlin\.labbio:localhost/127\.0\.0\.1:38958" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000007" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000007_0" TASK_STATUS="FAILED" FINISH_TIME="1306385604782" HOSTNAME="berlin\.labbio" ERROR="Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+,Error: java\.lang\.ClassNotFoundException: org\.apache\.hadoop\.hdfs\.protocol\.LocatedBlocks
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:214)
+	at java\.security\.AccessController\.doPrivileged(Native Method)
+	at java\.net\.URLClassLoader\.findClass(URLClassLoader\.java:205)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:321)
+	at sun\.misc\.Launcher$AppClassLoader\.loadClass(Launcher\.java:294)
+	at java\.lang\.ClassLoader\.loadClass(ClassLoader\.java:266)
+	at java\.lang\.Class\.getDeclaredMethods0(Native Method)
+	at java\.lang\.Class\.privateGetDeclaredMethods(Class\.java:2444)
+	at java\.lang\.Class\.privateGetPublicMethods(Class\.java:2564)
+	at java\.lang\.Class\.getMethods(Class\.java:1427)
+	at sun\.misc\.ProxyGenerator\.generateClassFile(ProxyGenerator\.java:426)
+	at sun\.misc\.ProxyGenerator\.generateProxyClass(ProxyGenerator\.java:323)
+	at java\.lang\.reflect\.Proxy\.getProxyClass(Proxy\.java:518)
+	at java\.lang\.reflect\.Proxy\.newProxyInstance(Proxy\.java:598)
+	at org\.apache\.hadoop\.ipc\.RPC\.getProxy(RPC\.java:355)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.createRPCNamenode(DFSClient\.java:106)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:207)
+	at org\.apache\.hadoop\.hdfs\.DFSClient\.<init>(DFSClient\.java:170)
+	at org\.apache\.hadoop\.hdfs\.DistributedFileSystem\.initialize(DistributedFileSystem\.java:82)
+	at org\.apache\.hadoop\.fs\.FileSystem\.createFileSystem(FileSystem\.java:1378)
+	at org\.apache\.hadoop\.fs\.FileSystem\.access$200(FileSystem\.java:66)
+	at org\.apache\.hadoop\.fs\.FileSystem$Cache\.get(FileSystem\.java:1390)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:196)
+	at org\.apache\.hadoop\.fs\.FileSystem\.get(FileSystem\.java:95)
+	at org\.apache\.hadoop\.mapred\.Child\.main(Child\.java:168)
+Caused by: java\.io\.EOFException: Detect premature EOF
+	at sun\.misc\.Resource\.getBytes(Resource\.java:131)
+	at java\.net\.URLClassLoader\.defineClass(URLClassLoader\.java:273)
+	at java\.net\.URLClassLoader\.access$000(URLClassLoader\.java:73)
+	at java\.net\.URLClassLoader$1\.run(URLClassLoader\.java:212)
+	\.\.\. 24 more
+" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000001" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000001_0" START_TIME="1306385084639" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000001" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000001_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306385120118" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50431728)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100014302)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333805)][(SPILLED_RECORDS)(Spilled Records)(6667610)][(MAP_OUTPUT_BYTES)(Map output bytes)(43339465)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333805)]}" .
+Task TASKID="task_201105251513_0170_m_000001" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385627107" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50431728)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100014302)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333805)][(SPILLED_RECORDS)(Spilled Records)(6667610)][(MAP_OUTPUT_BYTES)(Map output bytes)(43339465)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333805)]}" .
+Task TASKID="task_201105251513_0170_r_000000" TASK_TYPE="REDUCE" START_TIME="1306385627108" SPLITS="" .
+Task TASKID="task_201105251513_0170_r_000001" TASK_TYPE="REDUCE" START_TIME="1306385627600" SPLITS="" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000000" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000000_0" START_TIME="1306385084593" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000000" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000000_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306385122345" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50416773)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239936)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100019432)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333976)][(SPILLED_RECORDS)(Spilled Records)(6667952)][(MAP_OUTPUT_BYTES)(Map output bytes)(43341688)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333976)]}" .
+Task TASKID="task_201105251513_0170_m_000000" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385630113" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50416773)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239936)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100019432)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333976)][(SPILLED_RECORDS)(Spilled Records)(6667952)][(MAP_OUTPUT_BYTES)(Map output bytes)(43341688)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333976)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000002" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000002_0" START_TIME="1306384613397" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000002" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000002_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306384651122" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50423665)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100017452)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333910)][(SPILLED_RECORDS)(Spilled Records)(6667820)][(MAP_OUTPUT_BYTES)(Map output bytes)(43340830)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333910)]}" .
+Task TASKID="task_201105251513_0170_m_000002" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385630607" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50423665)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100017452)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333910)][(SPILLED_RECORDS)(Spilled Records)(6667820)][(MAP_OUTPUT_BYTES)(Map output bytes)(43340830)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333910)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000003" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000003_0" START_TIME="1306384613440" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000003" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000003_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306384650948" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50416773)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239936)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100019432)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333976)][(SPILLED_RECORDS)(Spilled Records)(6667952)][(MAP_OUTPUT_BYTES)(Map output bytes)(43341688)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333976)]}" .
+Task TASKID="task_201105251513_0170_m_000003" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385630607" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50416773)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239936)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100019432)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333976)][(SPILLED_RECORDS)(Spilled Records)(6667952)][(MAP_OUTPUT_BYTES)(Map output bytes)(43341688)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333976)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000007" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000007_1" START_TIME="1306385120598" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000007" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000007_1" TASK_STATUS="SUCCESS" FINISH_TIME="1306385144060" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(26410851)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(35093548)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(52299386)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(1743309)][(SPILLED_RECORDS)(Spilled Records)(3486618)][(MAP_OUTPUT_BYTES)(Map output bytes)(22663017)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(1743309)]}" .
+Task TASKID="task_201105251513_0170_m_000007" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385651237" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(26410851)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(35093548)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(52299386)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(1743309)][(SPILLED_RECORDS)(Spilled Records)(3486618)][(MAP_OUTPUT_BYTES)(Map output bytes)(22663017)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(1743309)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000006" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000006_1" START_TIME="1306385123695" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000006" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000006_1" TASK_STATUS="SUCCESS" FINISH_TIME="1306385142534" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(26410851)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(35093548)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(52299386)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(1743309)][(SPILLED_RECORDS)(Spilled Records)(3486618)][(MAP_OUTPUT_BYTES)(Map output bytes)(22663017)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(1743309)]}" .
+Task TASKID="task_201105251513_0170_m_000006" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385651237" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(26410851)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(35093548)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(52299386)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(1743309)][(SPILLED_RECORDS)(Spilled Records)(3486618)][(MAP_OUTPUT_BYTES)(Map output bytes)(22663017)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(1743309)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000004" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000004_1" START_TIME="1306384652285" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000004" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000004_1" TASK_STATUS="SUCCESS" FINISH_TIME="1306384685646" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50431728)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100014302)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333805)][(SPILLED_RECORDS)(Spilled Records)(6667610)][(MAP_OUTPUT_BYTES)(Map output bytes)(43339465)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333805)]}" .
+Task TASKID="task_201105251513_0170_m_000004" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385666705" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50431728)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100014302)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333805)][(SPILLED_RECORDS)(Spilled Records)(6667610)][(MAP_OUTPUT_BYTES)(Map output bytes)(43339465)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333805)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_1" START_TIME="1306384652239" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_1" TASK_STATUS="SUCCESS" FINISH_TIME="1306384689080" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50423665)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100017452)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333910)][(SPILLED_RECORDS)(Spilled Records)(6667820)][(MAP_OUTPUT_BYTES)(Map output bytes)(43340830)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333910)]}" .
+Task TASKID="task_201105251513_0170_m_000005" TASK_TYPE="MAP" TASK_STATUS="SUCCESS" FINISH_TIME="1306385669802" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(50423665)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(67239937)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(100017452)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(3333910)][(SPILLED_RECORDS)(Spilled Records)(6667820)][(MAP_OUTPUT_BYTES)(Map output bytes)(43340830)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(MAP_OUTPUT_RECORDS)(Map output records)(3333910)]}" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_2" START_TIME="1306385144731" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="MAP" TASKID="task_201105251513_0170_m_000005" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000005_2" TASK_STATUS="KILLED" FINISH_TIME="1306385170296" HOSTNAME="damasco\.labbio" ERROR="" .
+ReduceAttempt TASK_TYPE="REDUCE" TASKID="task_201105251513_0170_r_000000" TASK_ATTEMPT_ID="attempt_201105251513_0170_r_000000_0" START_TIME="1306385120598" TRACKER_NAME="tracker_damasco\.labbio:localhost/127\.0\.0\.1:47023" HTTP_PORT="50060" .
+ReduceAttempt TASK_TYPE="REDUCE" TASKID="task_201105251513_0170_r_000000" TASK_ATTEMPT_ID="attempt_201105251513_0170_r_000000_0" TASK_STATUS="SUCCESS" SHUFFLE_FINISHED="1306385170202" SORT_FINISHED="1306385183436" FINISH_TIME="1306391496755" HOSTNAME="/default-rack/damasco\.labbio" STATE_STRING="reduce > reduce" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(141300006)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(141300006)][(HDFS_BYTES_WRITTEN)(HDFS_BYTES_WRITTEN)(30987224100)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(REDUCE_INPUT_GROUPS)(Reduce input groups)(9000)][(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(REDUCE_SHUFFLE_BYTES)(Reduce shuffle bytes)(136330497)][(REDUCE_OUTPUT_RECORDS)(Reduce output records)(2878350000)][(SPILLED_RECORDS)(Spilled Records)(9420000)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(REDUCE_INPUT_RECORDS)(Reduce input records)(9420000)]}" .
+Task TASKID="task_201105251513_0170_r_000000" TASK_TYPE="REDUCE" TASK_STATUS="SUCCESS" FINISH_TIME="1306392005375" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(141300006)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(141300006)][(HDFS_BYTES_WRITTEN)(HDFS_BYTES_WRITTEN)(30987224100)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(REDUCE_INPUT_GROUPS)(Reduce input groups)(9000)][(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(REDUCE_SHUFFLE_BYTES)(Reduce shuffle bytes)(136330497)][(REDUCE_OUTPUT_RECORDS)(Reduce output records)(2878350000)][(SPILLED_RECORDS)(Spilled Records)(9420000)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(REDUCE_INPUT_RECORDS)(Reduce input records)(9420000)]}" .
+ReduceAttempt TASK_TYPE="REDUCE" TASKID="task_201105251513_0170_r_000001" TASK_ATTEMPT_ID="attempt_201105251513_0170_r_000001_0" START_TIME="1306384649650" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+ReduceAttempt TASK_TYPE="REDUCE" TASKID="task_201105251513_0170_r_000001" TASK_ATTEMPT_ID="attempt_201105251513_0170_r_000001_0" TASK_STATUS="SUCCESS" SHUFFLE_FINISHED="1306384710596" SORT_FINISHED="1306384714385" FINISH_TIME="1306397735392" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="reduce > reduce" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(211050012)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(211050012)][(HDFS_BYTES_WRITTEN)(HDFS_BYTES_WRITTEN)(72464247750)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(REDUCE_INPUT_GROUPS)(Reduce input groups)(9000)][(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(REDUCE_SHUFFLE_BYTES)(Reduce shuffle bytes)(166010937)][(REDUCE_OUTPUT_RECORDS)(Reduce output records)(6731475000)][(SPILLED_RECORDS)(Spilled Records)(14070000)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(REDUCE_INPUT_RECORDS)(Reduce input records)(14070000)]}" .
+Task TASKID="task_201105251513_0170_r_000001" TASK_TYPE="REDUCE" TASK_STATUS="SUCCESS" FINISH_TIME="1306398714746" COUNTERS="{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(211050012)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(211050012)][(HDFS_BYTES_WRITTEN)(HDFS_BYTES_WRITTEN)(72464247750)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(REDUCE_INPUT_GROUPS)(Reduce input groups)(9000)][(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(REDUCE_SHUFFLE_BYTES)(Reduce shuffle bytes)(166010937)][(REDUCE_OUTPUT_RECORDS)(Reduce output records)(6731475000)][(SPILLED_RECORDS)(Spilled Records)(14070000)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(REDUCE_INPUT_RECORDS)(Reduce input records)(14070000)]}" .
+Task TASKID="task_201105251513_0170_m_000008" TASK_TYPE="CLEANUP" START_TIME="1306398714746" SPLITS="" .
+MapAttempt TASK_TYPE="CLEANUP" TASKID="task_201105251513_0170_m_000008" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000008_0" START_TIME="1306397737763" TRACKER_NAME="tracker_moscou\.labbio:localhost/127\.0\.0\.1:36922" HTTP_PORT="50060" .
+MapAttempt TASK_TYPE="CLEANUP" TASKID="task_201105251513_0170_m_000008" TASK_ATTEMPT_ID="attempt_201105251513_0170_m_000008_0" TASK_STATUS="SUCCESS" FINISH_TIME="1306397743290" HOSTNAME="/default-rack/moscou\.labbio" STATE_STRING="cleanup" COUNTERS="{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(SPILLED_RECORDS)(Spilled Records)(0)]}" .
+Task TASKID="task_201105251513_0170_m_000008" TASK_TYPE="CLEANUP" TASK_STATUS="SUCCESS" FINISH_TIME="1306398720752" COUNTERS="{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(SPILLED_RECORDS)(Spilled Records)(0)]}" .
+Job JOBID="job_201105251513_0170" FINISH_TIME="1306398720753" JOB_STATUS="SUCCESS" FINISHED_MAPS="8" FINISHED_REDUCES="2" FAILED_MAPS="5" FAILED_REDUCES="0" COUNTERS="{(org\.apache\.hadoop\.mapred\.JobInProgress$Counter)(Job Counters )[(TOTAL_LAUNCHED_REDUCES)(Launched reduce tasks)(2)][(TOTAL_LAUNCHED_MAPS)(Launched map tasks)(13)][(DATA_LOCAL_MAPS)(Data-local map tasks)(13)]}{(FileSystemCounters)(FileSystemCounters)[(FILE_BYTES_READ)(FILE_BYTES_READ)(707716052)][(HDFS_BYTES_READ)(HDFS_BYTES_READ)(473626716)][(FILE_BYTES_WRITTEN)(FILE_BYTES_WRITTEN)(1057051162)][(HDFS_BYTES_WRITTEN)(HDFS_BYTES_WRITTEN)(103451471850)]}{(org\.apache\.hadoop\.mapred\.Task$Counter)(Map-Reduce Framework)[(REDUCE_INPUT_GROUPS)(Reduce input groups)(18000)][(COMBINE_OUTPUT_RECORDS)(Combine output records)(0)][(MAP_INPUT_RECORDS)(Map input records)(23490000)][(REDUCE_SHUFFLE_BYTES)(Reduce shuffle bytes)(302341434)][(REDUCE_OUTPUT_RECORDS)(Reduce output records)(9609825000)][(SPILLED_RECORDS)(Spilled Records)(70470000)][(MAP_OUTPUT_BYTES)(Map output bytes)(305370000)][(MAP_OUTPUT_RECORDS)(Map output records)(23490000)][(COMBINE_INPUT_RECORDS)(Combine input records)(0)][(REDUCE_INPUT_RECORDS)(Reduce input records)(23490000)]}" .

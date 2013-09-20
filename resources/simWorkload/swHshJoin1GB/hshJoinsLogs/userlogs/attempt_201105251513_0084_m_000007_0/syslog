@@ -1,0 +1,45 @@
+2011-05-25 17:00:27,191 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-25 17:00:27,521 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0084_m_000007_0 is done. And is in the process of commiting
+2011-05-25 17:00:27,525 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0084_m_000007_0' done.
+2011-05-25 17:00:29,677 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=MAP, sessionId= - already initialized
+2011-05-25 17:00:29,758 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 200
+2011-05-25 17:00:30,014 INFO org.apache.hadoop.mapred.MapTask: data buffer = 159383552/199229440
+2011-05-25 17:00:30,014 INFO org.apache.hadoop.mapred.MapTask: record buffer = 524288/655360
+2011-05-25 17:00:30,143 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Usage threshold exceeded) init = 35717120(34880K) used = 200435656(195737K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:30,144 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211381456(206427K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:31,127 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211462024(206505K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:31,421 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211395944(206441K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:31,636 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211396296(206441K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:31,799 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211396848(206442K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:31,962 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211397928(206443K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:32,146 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211396312(206441K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:32,325 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211396920(206442K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:32,521 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211397472(206442K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:32,726 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211397928(206443K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:32,992 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211396440(206441K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:33,203 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211397232(206442K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 17:00:33,732 INFO org.apache.hadoop.fs.FSInputChecker: Found checksum error: b[110592, 111104]=3534387c32343832337c3137333339387c313937337c32343534387c327c323135337c387c317c393536307c3133397c36323630387c37337c36362e37377c3133362e38377c37322e35347c343639362e30397c353239352e34327c343837342e32317c393939312e35317c3236342e37377c302e30307c302e30307c353239352e34327c353536302e31397c353239352e34327c353536302e31397c3432312e32317c0a323435313533387c34343432397c323435313630307c32343832337c3137333339387c313937337c32343534387c32343832337c3137333339387c313937337c32343534387c327c323133327c31367c327c31333638317c3130337c36323630387c35317c342e38387c31332e31327c342e39387c3431352e31347c3235332e39387c3234382e38387c3636392e31327c302e34307c3231332e33347c3332372e34327c34302e36347c34312e30347c3336382e30367c3336382e34367c2d3230382e32347c0a323435313533387c34343432397c323435313536317c32343832337c3137333339387c313937337c32343534387c32343832337c3137333339387c313937337c32343534387c327c323133327c31307c347c373836327c32307c36323630387c34347c38382e34317c3139302e39367c31312e34357c373839382e34347c3530332e38307c333839302e30347c383430322e3234
+org.apache.hadoop.fs.ChecksumException: Checksum error: /blk_-9194145784902501802:of:/user/hadoop/pigData/catalog_sales.dat at 48082944
+	at org.apache.hadoop.fs.FSInputChecker.verifySum(FSInputChecker.java:277)
+	at org.apache.hadoop.fs.FSInputChecker.readChecksumChunk(FSInputChecker.java:241)
+	at org.apache.hadoop.fs.FSInputChecker.read1(FSInputChecker.java:189)
+	at org.apache.hadoop.fs.FSInputChecker.read(FSInputChecker.java:158)
+	at org.apache.hadoop.hdfs.DFSClient$BlockReader.read(DFSClient.java:1158)
+	at org.apache.hadoop.hdfs.DFSClient$DFSInputStream.readBuffer(DFSClient.java:1718)
+	at org.apache.hadoop.hdfs.DFSClient$DFSInputStream.read(DFSClient.java:1770)
+	at java.io.DataInputStream.read(DataInputStream.java:100)
+	at org.apache.hadoop.util.LineReader.readLine(LineReader.java:134)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.nextKeyValue(LineRecordReader.java:97)
+	at org.apache.pig.builtin.PigStorage.getNext(PigStorage.java:107)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigRecordReader.nextKeyValue(PigRecordReader.java:142)
+	at org.apache.hadoop.mapred.MapTask$NewTrackingRecordReader.nextKeyValue(MapTask.java:423)
+	at org.apache.hadoop.mapreduce.MapContext.nextKeyValue(MapContext.java:67)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:143)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:621)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:305)
+	at org.apache.hadoop.mapred.Child.main(Child.java:170)
+2011-05-25 17:00:33,733 WARN org.apache.hadoop.hdfs.DFSClient: Found Checksum error for blk_-9194145784902501802_1006 from 10.87.5.102:50010 at 48082944
+2011-05-25 17:00:35,632 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2011-05-25 17:00:36,859 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2011-05-25 17:00:36,882 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0084_m_000001_0 is done. And is in the process of commiting
+2011-05-25 17:00:36,888 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0084_m_000001_0' done.

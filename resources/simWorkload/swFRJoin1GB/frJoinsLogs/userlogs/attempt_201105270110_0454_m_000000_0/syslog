@@ -1,0 +1,5 @@
+2011-05-27 05:42:40,160 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-27 05:42:40,749 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0454_m_000000_0 is done. And is in the process of commiting
+2011-05-27 05:42:42,762 INFO org.apache.hadoop.mapred.TaskRunner: Task attempt_201105270110_0454_m_000000_0 is allowed to commit now
+2011-05-27 05:42:42,777 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_201105270110_0454_m_000000_0' to hdfs://berlin.labbio:54310/tmp/temp-1699253959/tmp-1262125421
+2011-05-27 05:42:42,780 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0454_m_000000_0' done.

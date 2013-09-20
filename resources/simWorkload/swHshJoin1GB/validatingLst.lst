@@ -1,0 +1,10 @@
+query.11.date_dim.store_returns.1.1.pig
+query.21.catalog_sales.time_dim.2.1.pig
+query.22.catalog_returns.customer_demographics.5.1.pig
+query.31.web_sales.web_sales.1.1.pig
+query.5.customer_address.warehouse.10.12.pig
+query.66.web_returns.customer_address.7.1.pig
+query.6.catalog_sales.catalog_returns.18.17.pig
+query.6.store_returns.store_sales.3.3.pig
+query.75.web_sales.web_site.14.1.pig
+query.7.promotion.store_sales.1.9.pig

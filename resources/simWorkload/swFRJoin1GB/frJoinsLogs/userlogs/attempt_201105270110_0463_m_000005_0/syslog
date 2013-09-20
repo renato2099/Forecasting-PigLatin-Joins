@@ -1,0 +1,28 @@
+2011-05-27 05:46:05,388 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-27 05:46:06,563 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2011-05-27 05:46:06,563 INFO org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil: Total input paths to process : 1
+2011-05-27 05:46:12,183 INFO org.apache.hadoop.fs.FSInputChecker: Found checksum error: b[77824, 78336]=323430387c36323334357c353439367c32323336327c3836313135367c313130337c32323231307c327c35307c3233373633397c36347c36312e31377c3130312e35347c36322e39357c302e30307c343032382e38307c333931342e38387c363439382e35367c3336322e35397c302e30307c343032382e38307c343339312e33397c3131332e39327c0a323435323430387c36323334357c31373335327c32323336327c3836313135367c313130337c32323235307c327c3134347c3233373633397c33357c32322e36357c34312e32327c31312e31327c302e30307c3338392e32307c3739322e37357c313434322e37307c332e38397c302e30307c3338392e32307c3339332e30397c2d3430332e35357c0a7c36323334357c353633317c7c7c313130337c32323235307c327c3235377c3233373633397c7c7c35302e36397c7c302e30307c7c7c7c302e30307c302e30307c313330342e31367c313330342e31367c2d313832322e39327c0a323435323430387c36323334357c31373735317c32323336327c3836313135367c313130337c32323235307c327c3130357c3233373633397c39317c33312e39367c34392e32317c32362e30387c302e30307c323337332e32387c323930382e33367c343437382e31317c37312e31397c302e30307c323337332e32387c323434342e34377c2d3533352e30387c0a32
+org.apache.hadoop.fs.ChecksumException: Checksum error: /blk_3821304956069020651:of:/user/hadoop/pigData/store_sales.dat at 49098752
+	at org.apache.hadoop.fs.FSInputChecker.verifySum(FSInputChecker.java:277)
+	at org.apache.hadoop.fs.FSInputChecker.readChecksumChunk(FSInputChecker.java:241)
+	at org.apache.hadoop.fs.FSInputChecker.read1(FSInputChecker.java:189)
+	at org.apache.hadoop.fs.FSInputChecker.read(FSInputChecker.java:158)
+	at org.apache.hadoop.hdfs.DFSClient$BlockReader.read(DFSClient.java:1158)
+	at org.apache.hadoop.hdfs.DFSClient$DFSInputStream.readBuffer(DFSClient.java:1718)
+	at org.apache.hadoop.hdfs.DFSClient$DFSInputStream.read(DFSClient.java:1770)
+	at java.io.DataInputStream.read(DataInputStream.java:100)
+	at org.apache.hadoop.util.LineReader.readLine(LineReader.java:134)
+	at org.apache.hadoop.mapreduce.lib.input.LineRecordReader.nextKeyValue(LineRecordReader.java:97)
+	at org.apache.pig.builtin.PigStorage.getNext(PigStorage.java:107)
+	at org.apache.pig.backend.hadoop.executionengine.mapReduceLayer.PigRecordReader.nextKeyValue(PigRecordReader.java:142)
+	at org.apache.hadoop.mapred.MapTask$NewTrackingRecordReader.nextKeyValue(MapTask.java:423)
+	at org.apache.hadoop.mapreduce.MapContext.nextKeyValue(MapContext.java:67)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:143)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:621)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:305)
+	at org.apache.hadoop.mapred.Child.main(Child.java:170)
+2011-05-27 05:46:12,184 WARN org.apache.hadoop.hdfs.DFSClient: Found Checksum error for blk_3821304956069020651_1028 from 10.87.5.102:50010 at 49098752
+2011-05-27 05:46:12,729 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0463_m_000005_0 is done. And is in the process of commiting
+2011-05-27 05:46:15,744 INFO org.apache.hadoop.mapred.TaskRunner: Task attempt_201105270110_0463_m_000005_0 is allowed to commit now
+2011-05-27 05:46:15,766 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_201105270110_0463_m_000005_0' to hdfs://berlin.labbio:54310/user/hadoop/queryResults/query.7.store_sales.customer_address.7.1
+2011-05-27 05:46:15,769 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0463_m_000005_0' done.

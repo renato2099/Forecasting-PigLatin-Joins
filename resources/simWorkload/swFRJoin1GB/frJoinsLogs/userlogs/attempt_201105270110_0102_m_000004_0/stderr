@@ -1,0 +1,10 @@
+Exception in thread "IPC Client (47) connection to /127.0.0.1:54274 from hadoop" java.lang.OutOfMemoryError: Java heap space
+	at java.nio.ByteBuffer.wrap(ByteBuffer.java:367)
+	at org.apache.hadoop.net.SocketInputStream.read(SocketInputStream.java:128)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at org.apache.hadoop.ipc.Client$Connection$PingInputStream.read(Client.java:276)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.hadoop.ipc.Client$Connection.receiveResponse(Client.java:501)
+	at org.apache.hadoop.ipc.Client$Connection.run(Client.java:446)

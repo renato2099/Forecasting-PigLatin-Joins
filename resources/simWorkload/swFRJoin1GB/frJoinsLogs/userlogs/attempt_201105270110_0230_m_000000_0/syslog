@@ -1,0 +1,10 @@
+2011-05-27 03:36:17,115 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-27 03:36:18,028 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2011-05-27 03:36:18,029 INFO org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil: Total input paths to process : 2
+2011-05-27 03:36:23,172 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 147324248(143871K) committed = 217645056(212544K) max = 279642112(273088K)
+2011-05-27 03:36:25,229 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Usage threshold exceeded) init = 35717120(34880K) used = 196181336(191583K) committed = 217645056(212544K) max = 279642112(273088K)
+2011-05-27 03:36:25,230 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 212714480(207728K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-27 03:36:32,257 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=CLEANUP, sessionId=
+2011-05-27 03:36:32,615 INFO org.apache.hadoop.mapred.TaskRunner: Runnning cleanup for the task
+2011-05-27 03:36:32,622 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105270110_0230_m_000000_0 is done. And is in the process of commiting
+2011-05-27 03:36:32,632 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105270110_0230_m_000000_0' done.

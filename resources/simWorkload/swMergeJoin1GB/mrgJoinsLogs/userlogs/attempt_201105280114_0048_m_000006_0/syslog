@@ -1,0 +1,8 @@
+2011-05-28 03:07:59,898 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-28 03:08:00,206 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105280114_0048_m_000006_0 is done. And is in the process of commiting
+2011-05-28 03:08:00,216 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105280114_0048_m_000006_0' done.
+2011-05-28 03:08:02,480 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=MAP, sessionId= - already initialized
+2011-05-28 03:08:02,855 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2011-05-28 03:08:02,855 INFO org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil: Total input paths to process : 1
+2011-05-28 03:08:02,919 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2011-05-28 03:08:02,919 INFO org.apache.pig.backend.hadoop.executionengine.util.MapRedUtil: Total input paths to process : 1

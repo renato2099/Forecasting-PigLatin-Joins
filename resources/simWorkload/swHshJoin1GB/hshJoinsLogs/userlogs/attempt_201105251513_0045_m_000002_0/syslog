@@ -1,0 +1,31 @@
+2011-05-25 16:29:39,089 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=MAP, sessionId=
+2011-05-25 16:29:39,779 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 200
+2011-05-25 16:29:39,989 INFO org.apache.hadoop.mapred.MapTask: data buffer = 159383552/199229440
+2011-05-25 16:29:39,990 INFO org.apache.hadoop.mapred.MapTask: record buffer = 524288/655360
+2011-05-25 16:29:40,133 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Usage threshold exceeded) init = 35717120(34880K) used = 207093792(202240K) committed = 235012096(229504K) max = 279642112(273088K)
+2011-05-25 16:29:40,243 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211207016(206256K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:41,206 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211229664(206278K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:41,526 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211230200(206279K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:41,745 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190776(206240K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:41,899 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191440(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:42,057 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191800(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:42,229 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211192232(206242K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:42,446 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190720(206240K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:42,620 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191456(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:42,812 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191864(206242K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:43,010 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211192272(206242K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:43,203 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211190888(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:43,413 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191200(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:43,643 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211191656(206241K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:44,158 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211260048(206308K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:44,532 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211246640(206295K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:44,758 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211247208(206296K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:45,001 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211247752(206296K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:45,241 INFO org.apache.pig.impl.util.SpillableMemoryManager: low memory handler called (Collection threshold exceeded) init = 35717120(34880K) used = 211248360(206297K) committed = 279642112(273088K) max = 279642112(273088K)
+2011-05-25 16:29:45,423 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2011-05-25 16:29:46,878 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2011-05-25 16:29:46,882 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0045_m_000002_0 is done. And is in the process of commiting
+2011-05-25 16:29:46,886 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0045_m_000002_0' done.
+2011-05-25 16:30:23,494 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=MAP, sessionId= - already initialized
+2011-05-25 16:30:23,526 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0045_m_000007_0 is done. And is in the process of commiting
+2011-05-25 16:30:23,605 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0045_m_000007_0' done.

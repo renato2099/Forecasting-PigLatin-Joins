@@ -1,0 +1,56 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swFRJoin1GB/frJoinsLogs/userlogs/attempt_201105270110_0119_m_000002_0
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+log.index
+file
+
+
+
+add
+
+stderr
+file
+
+
+
+add
+
+stdout
+file
+
+
+
+add
+
+syslog
+file
+
+
+
+add
+

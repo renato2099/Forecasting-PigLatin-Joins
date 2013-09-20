@@ -1,0 +1,44 @@
+10
+
+dir
+147
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/crossValidation/cvMergeJoin100GB
+https://139.82.100.142/svn/rmogrovejo
+
+
+
+2011-07-07T22:09:21.902142Z
+147
+rmogrovejo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+
+
+
+
+
+0
+
+fstFold
+dir
+
+sndFold
+dir
+
+thrFold
+dir
+

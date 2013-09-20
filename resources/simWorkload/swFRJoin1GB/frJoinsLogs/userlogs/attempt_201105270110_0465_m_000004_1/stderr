@@ -1,0 +1,18 @@
+Exception in thread "main" org.apache.hadoop.ipc.RemoteException: java.io.IOException: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.TaskTracker.fatalError(TaskTracker.java:2616)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:508)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:959)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:955)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:416)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:953)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:740)
+	at org.apache.hadoop.ipc.RPC$Invoker.invoke(RPC.java:220)
+	at org.apache.hadoop.mapred.$Proxy0.fatalError(Unknown Source)
+	at org.apache.hadoop.mapred.Child.main(Child.java:210)
+log4j:WARN No appenders could be found for logger (org.apache.hadoop.hdfs.DFSClient).
+log4j:WARN Please initialize the log4j system properly.

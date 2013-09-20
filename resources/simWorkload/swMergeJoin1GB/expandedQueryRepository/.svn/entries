@@ -1,0 +1,273 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swMergeJoin1GB/expandedQueryRepository
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+23H00M22S711719527.5X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S739900650.5X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+23H00M22S749737034.5X.query.31.ship_mode.ship_mode.1.1.pig
+file
+
+
+
+add
+
+23H00M22S765425924.5X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S769835118.5X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+23H00M22S774315978.5X.query.31.ship_mode.ship_mode.1.1.pig
+file
+
+
+
+add
+
+23H00M22S778761582.5X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S783877762.5X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+23H00M22S790326065.5X.query.31.ship_mode.ship_mode.1.1.pig
+file
+
+
+
+add
+
+23H00M22S794768655.3X.query.31.store_sales.store_sales.10.10.pig
+file
+
+
+
+add
+
+23H00M22S806215688.3X.query.31.web_page.web_page.1.1.pig
+file
+
+
+
+add
+
+23H00M22S810637293.3X.query.33.catalog_sales.catalog_sales.1.1.pig
+file
+
+
+
+add
+
+23H00M22S818605674.3X.query.33.customer.customer.1.1.pig
+file
+
+
+
+add
+
+23H00M22S828524125.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+23H00M22S836127344.3X.query.33.date_dim.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S840648141.3X.query.31.store_sales.store_sales.10.10.pig
+file
+
+
+
+add
+
+23H00M22S845299434.3X.query.31.web_page.web_page.1.1.pig
+file
+
+
+
+add
+
+23H00M22S849781429.3X.query.33.catalog_sales.catalog_sales.1.1.pig
+file
+
+
+
+add
+
+23H00M22S854471926.3X.query.33.customer.customer.1.1.pig
+file
+
+
+
+add
+
+23H00M22S858905840.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+23H00M22S863444244.3X.query.33.date_dim.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S867835733.3X.query.31.store_sales.store_sales.10.10.pig
+file
+
+
+
+add
+
+23H00M22S872150120.3X.query.31.web_page.web_page.1.1.pig
+file
+
+
+
+add
+
+23H00M22S876447233.3X.query.33.catalog_sales.catalog_sales.1.1.pig
+file
+
+
+
+add
+
+23H00M22S880693099.3X.query.33.customer.customer.1.1.pig
+file
+
+
+
+add
+
+23H00M22S885249223.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+23H00M22S889488089.3X.query.33.date_dim.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S893995180.1X.query.33.household_demographics.household_demographics.1.1.pig
+file
+
+
+
+add
+
+23H00M22S898411798.1X.query.33.item.item.1.1.pig
+file
+
+
+
+add
+
+23H00M22S902852171.1X.query.33.promotion.promotion.1.1.pig
+file
+
+
+
+add
+
+23H00M22S910097485.1X.query.33.reason.reason.1.1.pig
+file
+
+
+
+add
+
+23H00M22S914432007.1X.query.33.store.store.2.2.pig
+file
+
+
+
+add
+
+23H00M22S923304385.1X.query.33.time_dim.time_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S935450274.1X.query.5.inventory.date_dim.1.1.pig
+file
+
+
+
+add
+
+23H00M22S939791086.1X.query.75.web_site.web_site.1.1.pig
+file
+
+
+
+add
+

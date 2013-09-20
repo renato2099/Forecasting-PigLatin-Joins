@@ -1,0 +1,56 @@
+2011-05-25 21:27:26,805 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SHUFFLE, sessionId=
+2011-05-25 21:27:27,433 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=260984016, MaxSingleShuffleLimit=65246004
+2011-05-25 21:27:27,449 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Thread started: Thread for merging on-disk files
+2011-05-25 21:27:27,449 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Thread waiting: Thread for merging on-disk files
+2011-05-25 21:27:27,449 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Thread started: Thread for merging in memory files
+2011-05-25 21:27:27,451 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Thread started: Thread for polling Map Completion Events
+2011-05-25 21:27:27,452 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Need another 6 map output(s) where 0 is already in progress
+2011-05-25 21:27:27,452 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2011-05-25 21:27:27,455 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0: Got 1 new map-outputs
+2011-05-25 21:27:28,457 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0: Got 1 new map-outputs
+2011-05-25 21:27:32,453 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 2 outputs (0 slow hosts and0 dup hosts)
+2011-05-25 21:27:32,468 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0: Got 4 new map-outputs
+2011-05-25 21:27:32,471 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 1 outputs (0 slow hosts and2 dup hosts)
+2011-05-25 21:27:32,491 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000005_0, compressed len: 36, decompressed len: 32
+2011-05-25 21:27:32,491 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 32 bytes (36 raw bytes) into RAM from attempt_201105251513_0121_m_000005_0
+2011-05-25 21:27:32,495 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000002_0, compressed len: 1967894, decompressed len: 1967890
+2011-05-25 21:27:32,495 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 1967890 bytes (1967894 raw bytes) into RAM from attempt_201105251513_0121_m_000002_0
+2011-05-25 21:27:32,496 INFO org.apache.hadoop.mapred.ReduceTask: Read 32 bytes from map-output for attempt_201105251513_0121_m_000005_0
+2011-05-25 21:27:32,502 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000001_0, compressed len: 1976822, decompressed len: 1976818
+2011-05-25 21:27:32,502 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 1976818 bytes (1976822 raw bytes) into RAM from attempt_201105251513_0121_m_000001_0
+2011-05-25 21:27:32,515 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000005_0 -> (6, 7) from berlin.labbio
+2011-05-25 21:27:32,518 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 1 outputs (0 slow hosts and2 dup hosts)
+2011-05-25 21:27:32,522 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000004_0, compressed len: 802692, decompressed len: 802688
+2011-05-25 21:27:32,522 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 802688 bytes (802692 raw bytes) into RAM from attempt_201105251513_0121_m_000004_0
+2011-05-25 21:27:32,551 INFO org.apache.hadoop.mapred.ReduceTask: Read 802688 bytes from map-output for attempt_201105251513_0121_m_000004_0
+2011-05-25 21:27:32,551 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000004_0 -> (6, 7) from berlin.labbio
+2011-05-25 21:27:32,827 INFO org.apache.hadoop.mapred.ReduceTask: Read 1967890 bytes from map-output for attempt_201105251513_0121_m_000002_0
+2011-05-25 21:27:32,827 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000002_0 -> (6, 7) from moscou.labbio
+2011-05-25 21:27:32,828 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 1 outputs (0 slow hosts and1 dup hosts)
+2011-05-25 21:27:32,832 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000003_0, compressed len: 1954609, decompressed len: 1954605
+2011-05-25 21:27:32,833 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 1954605 bytes (1954609 raw bytes) into RAM from attempt_201105251513_0121_m_000003_0
+2011-05-25 21:27:32,837 INFO org.apache.hadoop.mapred.ReduceTask: Read 1976818 bytes from map-output for attempt_201105251513_0121_m_000001_0
+2011-05-25 21:27:32,837 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000001_0 -> (6, 7) from damasco.labbio
+2011-05-25 21:27:32,841 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201105251513_0121_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2011-05-25 21:27:32,845 INFO org.apache.hadoop.mapred.ReduceTask: header: attempt_201105251513_0121_m_000000_0, compressed len: 1979134, decompressed len: 1979130
+2011-05-25 21:27:32,845 INFO org.apache.hadoop.mapred.ReduceTask: Shuffling 1979130 bytes (1979134 raw bytes) into RAM from attempt_201105251513_0121_m_000000_0
+2011-05-25 21:27:33,159 INFO org.apache.hadoop.mapred.ReduceTask: Read 1954605 bytes from map-output for attempt_201105251513_0121_m_000003_0
+2011-05-25 21:27:33,159 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000003_0 -> (6, 7) from moscou.labbio
+2011-05-25 21:27:33,169 INFO org.apache.hadoop.mapred.ReduceTask: Read 1979130 bytes from map-output for attempt_201105251513_0121_m_000000_0
+2011-05-25 21:27:33,169 INFO org.apache.hadoop.mapred.ReduceTask: Rec #1 from attempt_201105251513_0121_m_000000_0 -> (6, 7) from damasco.labbio
+2011-05-25 21:27:33,468 INFO org.apache.hadoop.mapred.ReduceTask: GetMapEventsThread exiting
+2011-05-25 21:27:33,468 INFO org.apache.hadoop.mapred.ReduceTask: getMapsEventsThread joined.
+2011-05-25 21:27:33,469 INFO org.apache.hadoop.mapred.ReduceTask: Closed ram manager
+2011-05-25 21:27:33,469 INFO org.apache.hadoop.mapred.ReduceTask: Interleaved on-disk merge complete: 0 files left.
+2011-05-25 21:27:33,469 INFO org.apache.hadoop.mapred.ReduceTask: In-memory merge complete: 6 files left.
+2011-05-25 21:27:33,539 INFO org.apache.hadoop.mapred.Merger: Merging 6 sorted segments
+2011-05-25 21:27:33,539 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 6 segments left of total size: 8681163 bytes
+2011-05-25 21:27:34,831 INFO org.apache.hadoop.mapred.ReduceTask: Merged 6 segments, 8681163 bytes to disk to satisfy reduce memory limit
+2011-05-25 21:27:34,831 INFO org.apache.hadoop.mapred.ReduceTask: Merging 1 files, 8681157 bytes from disk
+2011-05-25 21:27:34,832 INFO org.apache.hadoop.mapred.ReduceTask: Merging 0 segments, 0 bytes from memory into reduce
+2011-05-25 21:27:34,832 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2011-05-25 21:27:34,837 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 8681153 bytes
+2011-05-25 21:27:37,726 INFO org.apache.hadoop.mapred.TaskRunner: Task:attempt_201105251513_0121_r_000000_0 is done. And is in the process of commiting
+2011-05-25 21:27:40,740 INFO org.apache.hadoop.mapred.TaskRunner: Task attempt_201105251513_0121_r_000000_0 is allowed to commit now
+2011-05-25 21:27:40,773 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_201105251513_0121_r_000000_0' to hdfs://berlin.labbio:54310/user/hadoop/queryResults/query.20.catalog_sales.warehouse.15.1
+2011-05-25 21:27:40,776 INFO org.apache.hadoop.mapred.TaskRunner: Task 'attempt_201105251513_0121_r_000000_0' done.

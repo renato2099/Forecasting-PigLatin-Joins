@@ -1,0 +1,1694 @@
+10
+
+dir
+0
+https://139.82.100.142/svn/rmogrovejo/HadoopMultipleRegressionModel/trunk/resources/simWorkload/swFRJoin1GB/expandedQueryRepository
+https://139.82.100.142/svn/rmogrovejo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7c28d3c1-9dff-4367-b1c1-34f2191a574f
+
+21H21M40S691692596.5X.query.11.customer_address.store_returns.1.7.pig
+file
+
+
+
+add
+
+21H21M40S696186295.5X.query.11.customer_demographics.store_returns.1.5.pig
+file
+
+
+
+add
+
+21H21M40S716056708.5X.query.11.customer.store_returns.1.4.pig
+file
+
+
+
+add
+
+21H21M40S723475810.5X.query.11.date_dim.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M40S728265001.5X.query.11.household_demographics.store_returns.1.6.pig
+file
+
+
+
+add
+
+21H21M40S735567585.5X.query.11.item.store_returns.1.3.pig
+file
+
+
+
+add
+
+21H21M40S740137104.5X.query.11.reason.store_returns.1.9.pig
+file
+
+
+
+add
+
+21H21M40S744434563.5X.query.11.store_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M40S748861515.5X.query.11.store_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M40S753135077.5X.query.11.store_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M40S762862688.5X.query.11.store_returns.reason.9.1.pig
+file
+
+
+
+add
+
+21H21M40S767621710.5X.query.11.store_returns.store.8.1.pig
+file
+
+
+
+add
+
+21H21M40S771927920.5X.query.11.store_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M40S776304920.5X.query.11.store.store_returns.1.8.pig
+file
+
+
+
+add
+
+21H21M40S780705979.5X.query.11.time_dim.store_returns.1.2.pig
+file
+
+
+
+add
+
+21H21M40S785153555.5X.query.20.catalog_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M40S789513327.5X.query.20.catalog_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M40S793808860.5X.query.11.customer_address.store_returns.1.7.pig
+file
+
+
+
+add
+
+21H21M40S798109591.5X.query.11.customer_demographics.store_returns.1.5.pig
+file
+
+
+
+add
+
+21H21M40S802992285.5X.query.11.customer.store_returns.1.4.pig
+file
+
+
+
+add
+
+21H21M40S808025607.5X.query.11.date_dim.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M40S812750038.5X.query.11.household_demographics.store_returns.1.6.pig
+file
+
+
+
+add
+
+21H21M40S817179341.5X.query.11.item.store_returns.1.3.pig
+file
+
+
+
+add
+
+21H21M40S821663666.5X.query.11.reason.store_returns.1.9.pig
+file
+
+
+
+add
+
+21H21M40S826681191.5X.query.11.store_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M40S831046862.5X.query.11.store_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M40S838299687.5X.query.11.store_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M40S842668365.5X.query.11.store_returns.reason.9.1.pig
+file
+
+
+
+add
+
+21H21M40S847320987.5X.query.11.store_returns.store.8.1.pig
+file
+
+
+
+add
+
+21H21M40S851825541.5X.query.11.store_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M40S856288620.5X.query.11.store.store_returns.1.8.pig
+file
+
+
+
+add
+
+21H21M40S860582592.5X.query.11.time_dim.store_returns.1.2.pig
+file
+
+
+
+add
+
+21H21M40S867309861.5X.query.20.catalog_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M40S871651354.5X.query.20.catalog_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M40S875982032.5X.query.11.customer_address.store_returns.1.7.pig
+file
+
+
+
+add
+
+21H21M40S880289524.5X.query.11.customer_demographics.store_returns.1.5.pig
+file
+
+
+
+add
+
+21H21M40S884860907.5X.query.11.customer.store_returns.1.4.pig
+file
+
+
+
+add
+
+21H21M40S901503263.5X.query.11.date_dim.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M40S905729806.5X.query.11.household_demographics.store_returns.1.6.pig
+file
+
+
+
+add
+
+21H21M40S909944406.5X.query.11.item.store_returns.1.3.pig
+file
+
+
+
+add
+
+21H21M40S914148647.5X.query.11.reason.store_returns.1.9.pig
+file
+
+
+
+add
+
+21H21M40S918356304.5X.query.11.store_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M40S922579245.5X.query.11.store_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M40S927094729.5X.query.11.store_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M40S931293917.5X.query.11.store_returns.reason.9.1.pig
+file
+
+
+
+add
+
+21H21M40S935490699.5X.query.11.store_returns.store.8.1.pig
+file
+
+
+
+add
+
+21H21M40S939678723.5X.query.11.store_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M40S949672838.5X.query.11.store.store_returns.1.8.pig
+file
+
+
+
+add
+
+21H21M40S961601272.5X.query.11.time_dim.store_returns.1.2.pig
+file
+
+
+
+add
+
+21H21M40S966059148.5X.query.20.catalog_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M40S970595647.5X.query.20.catalog_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M40S975343750.5X.query.11.customer_address.store_returns.1.7.pig
+file
+
+
+
+add
+
+21H21M40S979772914.5X.query.11.customer_demographics.store_returns.1.5.pig
+file
+
+
+
+add
+
+21H21M40S986571473.5X.query.11.customer.store_returns.1.4.pig
+file
+
+
+
+add
+
+21H21M40S990955868.5X.query.11.date_dim.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M40S995636213.5X.query.11.household_demographics.store_returns.1.6.pig
+file
+
+
+
+add
+
+21H21M41S000264844.5X.query.11.item.store_returns.1.3.pig
+file
+
+
+
+add
+
+21H21M41S004890196.5X.query.11.reason.store_returns.1.9.pig
+file
+
+
+
+add
+
+21H21M41S009226457.5X.query.11.store_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S015688113.5X.query.11.store_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S020007864.5X.query.11.store_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S024251413.5X.query.11.store_returns.reason.9.1.pig
+file
+
+
+
+add
+
+21H21M41S031639013.5X.query.11.store_returns.store.8.1.pig
+file
+
+
+
+add
+
+21H21M41S035838221.5X.query.11.store_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S040002083.5X.query.11.store.store_returns.1.8.pig
+file
+
+
+
+add
+
+21H21M41S044229769.5X.query.11.time_dim.store_returns.1.2.pig
+file
+
+
+
+add
+
+21H21M41S048600106.5X.query.20.catalog_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S052817842.5X.query.20.catalog_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S057014954.5X.query.11.customer_address.store_returns.1.7.pig
+file
+
+
+
+add
+
+21H21M41S061277974.5X.query.11.customer_demographics.store_returns.1.5.pig
+file
+
+
+
+add
+
+21H21M41S065445173.5X.query.11.customer.store_returns.1.4.pig
+file
+
+
+
+add
+
+21H21M41S069670906.5X.query.11.date_dim.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M41S074017015.5X.query.11.household_demographics.store_returns.1.6.pig
+file
+
+
+
+add
+
+21H21M41S078267763.5X.query.11.item.store_returns.1.3.pig
+file
+
+
+
+add
+
+21H21M41S087850146.5X.query.11.reason.store_returns.1.9.pig
+file
+
+
+
+add
+
+21H21M41S105678827.5X.query.11.store_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S117506715.5X.query.11.store_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S129227408.5X.query.11.store_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S136106421.5X.query.11.store_returns.reason.9.1.pig
+file
+
+
+
+add
+
+21H21M41S141525404.5X.query.11.store_returns.store.8.1.pig
+file
+
+
+
+add
+
+21H21M41S145988358.5X.query.11.store_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S150274145.5X.query.11.store.store_returns.1.8.pig
+file
+
+
+
+add
+
+21H21M41S154561270.5X.query.11.time_dim.store_returns.1.2.pig
+file
+
+
+
+add
+
+21H21M41S158866167.5X.query.20.catalog_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S163173292.5X.query.20.catalog_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S167895772.3X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S174373912.3X.query.20.catalog_sales.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S178656433.3X.query.20.catalog_sales.item.16.1.pig
+file
+
+
+
+add
+
+21H21M41S182892183.3X.query.20.catalog_sales.promotion.17.1.pig
+file
+
+
+
+add
+
+21H21M41S187101517.3X.query.20.catalog_sales.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S191334249.3X.query.21.catalog_sales.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S195587471.3X.query.21.catalog_sales.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S199958570.3X.query.21.catalog_sales.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S218536847.3X.query.21.catalog_sales.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S226212274.3X.query.22.catalog_returns.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S231167056.3X.query.22.catalog_returns.catalog_page.13.1.pig
+file
+
+
+
+add
+
+21H21M41S235988548.3X.query.22.catalog_returns.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S240396034.3X.query.22.catalog_returns.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S245201571.3X.query.22.catalog_returns.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S249854652.3X.query.22.catalog_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S256723985.3X.query.22.catalog_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S261157687.3X.query.22.catalog_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S265503731.3X.query.22.catalog_returns.reason.16.1.pig
+file
+
+
+
+add
+
+21H21M41S269867283.3X.query.22.catalog_returns.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S274240584.3X.query.22.catalog_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S278698995.3X.query.22.catalog_returns.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S283581342.3X.query.31.catalog_page.catalog_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S288222529.3X.query.31.catalog_returns.catalog_returns.17.17.pig
+file
+
+
+
+add
+
+21H21M41S292870893.3X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+21H21M41S297930994.3X.query.31.store_returns.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M41S302494992.3X.query.31.web_page.web_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S306817786.3X.query.31.web_returns.web_returns.3.3.pig
+file
+
+
+
+add
+
+21H21M41S311491175.3X.query.31.web_site.web_site.2.2.pig
+file
+
+
+
+add
+
+21H21M41S316395698.3X.query.33.customer.customer.2.2.pig
+file
+
+
+
+add
+
+21H21M41S323475760.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S328141494.3X.query.33.date_dim.date_dim.2.2.pig
+file
+
+
+
+add
+
+21H21M41S332457596.3X.query.33.household_demographics.household_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S347640578.3X.query.33.item.item.2.2.pig
+file
+
+
+
+add
+
+21H21M41S351842913.3X.query.33.promotion.promotion.2.2.pig
+file
+
+
+
+add
+
+21H21M41S356030105.3X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S360277938.3X.query.20.catalog_sales.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S364821999.3X.query.20.catalog_sales.item.16.1.pig
+file
+
+
+
+add
+
+21H21M41S369181631.3X.query.20.catalog_sales.promotion.17.1.pig
+file
+
+
+
+add
+
+21H21M41S373442529.3X.query.20.catalog_sales.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S377673410.3X.query.21.catalog_sales.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S381899168.3X.query.21.catalog_sales.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S386152461.3X.query.21.catalog_sales.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S390541355.3X.query.21.catalog_sales.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S394788350.3X.query.22.catalog_returns.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S410917570.3X.query.22.catalog_returns.catalog_page.13.1.pig
+file
+
+
+
+add
+
+21H21M41S415233267.3X.query.22.catalog_returns.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S419577467.3X.query.22.catalog_returns.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S424025837.3X.query.22.catalog_returns.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S428410975.3X.query.22.catalog_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S432685959.3X.query.22.catalog_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S436979926.3X.query.22.catalog_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S441239354.3X.query.22.catalog_returns.reason.16.1.pig
+file
+
+
+
+add
+
+21H21M41S445666136.3X.query.22.catalog_returns.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S449904963.3X.query.22.catalog_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S454119543.3X.query.22.catalog_returns.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S458344910.3X.query.31.catalog_page.catalog_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S462596508.3X.query.31.catalog_returns.catalog_returns.17.17.pig
+file
+
+
+
+add
+
+21H21M41S466841317.3X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+21H21M41S471068052.3X.query.31.store_returns.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M41S475329393.3X.query.31.web_page.web_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S479551428.3X.query.31.web_returns.web_returns.3.3.pig
+file
+
+
+
+add
+
+21H21M41S483789773.3X.query.31.web_site.web_site.2.2.pig
+file
+
+
+
+add
+
+21H21M41S488020142.3X.query.33.customer.customer.2.2.pig
+file
+
+
+
+add
+
+21H21M41S492343413.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S499646651.3X.query.33.date_dim.date_dim.2.2.pig
+file
+
+
+
+add
+
+21H21M41S503869647.3X.query.33.household_demographics.household_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S508016334.3X.query.33.item.item.2.2.pig
+file
+
+
+
+add
+
+21H21M41S531071455.3X.query.33.promotion.promotion.2.2.pig
+file
+
+
+
+add
+
+21H21M41S544351205.3X.query.20.catalog_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S550512876.3X.query.20.catalog_sales.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S564896498.3X.query.20.catalog_sales.item.16.1.pig
+file
+
+
+
+add
+
+21H21M41S575770689.3X.query.20.catalog_sales.promotion.17.1.pig
+file
+
+
+
+add
+
+21H21M41S581207141.3X.query.20.catalog_sales.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S588071410.3X.query.21.catalog_sales.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S596182022.3X.query.21.catalog_sales.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S600616064.3X.query.21.catalog_sales.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S605507858.3X.query.21.catalog_sales.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S610665484.3X.query.22.catalog_returns.call_center.12.1.pig
+file
+
+
+
+add
+
+21H21M41S615199210.3X.query.22.catalog_returns.catalog_page.13.1.pig
+file
+
+
+
+add
+
+21H21M41S619555510.3X.query.22.catalog_returns.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S623966489.3X.query.22.catalog_returns.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S628345420.3X.query.22.catalog_returns.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S632702551.3X.query.22.catalog_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S637377098.3X.query.22.catalog_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S649885174.3X.query.22.catalog_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S654448569.3X.query.22.catalog_returns.reason.16.1.pig
+file
+
+
+
+add
+
+21H21M41S659233998.3X.query.22.catalog_returns.ship_mode.14.1.pig
+file
+
+
+
+add
+
+21H21M41S665805019.3X.query.22.catalog_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S670693626.3X.query.22.catalog_returns.warehouse.15.1.pig
+file
+
+
+
+add
+
+21H21M41S675599162.3X.query.31.catalog_page.catalog_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S679939380.3X.query.31.catalog_returns.catalog_returns.17.17.pig
+file
+
+
+
+add
+
+21H21M41S684290353.3X.query.31.customer_address.customer_address.1.1.pig
+file
+
+
+
+add
+
+21H21M41S688613569.3X.query.31.store_returns.store_returns.1.1.pig
+file
+
+
+
+add
+
+21H21M41S694246427.3X.query.31.web_page.web_page.2.2.pig
+file
+
+
+
+add
+
+21H21M41S698822762.3X.query.31.web_returns.web_returns.3.3.pig
+file
+
+
+
+add
+
+21H21M41S703158795.3X.query.31.web_site.web_site.2.2.pig
+file
+
+
+
+add
+
+21H21M41S707410669.3X.query.33.customer.customer.2.2.pig
+file
+
+
+
+add
+
+21H21M41S711674541.3X.query.33.customer_demographics.customer_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S715909615.3X.query.33.date_dim.date_dim.2.2.pig
+file
+
+
+
+add
+
+21H21M41S720254647.3X.query.33.household_demographics.household_demographics.1.1.pig
+file
+
+
+
+add
+
+21H21M41S724955222.3X.query.33.item.item.2.2.pig
+file
+
+
+
+add
+
+21H21M41S729813508.3X.query.33.promotion.promotion.2.2.pig
+file
+
+
+
+add
+
+21H21M41S734261419.1X.query.33.reason.reason.2.2.pig
+file
+
+
+
+add
+
+21H21M41S738512135.1X.query.33.store.store.2.2.pig
+file
+
+
+
+add
+
+21H21M41S742756239.1X.query.33.time_dim.time_dim.2.2.pig
+file
+
+
+
+add
+
+21H21M41S747137722.1X.query.52.store_sales.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S751632175.1X.query.5.customer_address.warehouse.10.12.pig
+file
+
+
+
+add
+
+21H21M41S773821976.1X.query.5.customer_address.warehouse.11.13.pig
+file
+
+
+
+add
+
+21H21M41S780641038.1X.query.5.customer_address.warehouse.12.14.pig
+file
+
+
+
+add
+
+21H21M41S785279559.1X.query.5.customer_address.warehouse.7.9.pig
+file
+
+
+
+add
+
+21H21M41S789806388.1X.query.5.customer_address.warehouse.8.10.pig
+file
+
+
+
+add
+
+21H21M41S796755104.1X.query.5.customer_address.warehouse.9.11.pig
+file
+
+
+
+add
+
+21H21M41S802161855.1X.query.5.inventory.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S810244466.1X.query.5.inventory.item.2.1.pig
+file
+
+
+
+add
+
+21H21M41S814713242.1X.query.5.inventory.warehouse.3.1.pig
+file
+
+
+
+add
+
+21H21M41S819131205.1X.query.66.web_returns.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S825713821.1X.query.66.web_returns.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S838445193.1X.query.66.web_returns.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M41S842740254.1X.query.66.web_returns.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S851022851.1X.query.66.web_returns.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S855564040.1X.query.66.web_returns.item.3.1.pig
+file
+
+
+
+add
+
+21H21M41S859868905.1X.query.66.web_returns.reason.13.1.pig
+file
+
+
+
+add
+
+21H21M41S864405494.1X.query.66.web_returns.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S878610824.1X.query.66.web_returns.web_page.12.1.pig
+file
+
+
+
+add
+
+21H21M41S883049085.1X.query.6.catalog_sales.catalog_page.13.1.pig
+file
+
+
+
+add
+
+21H21M41S887504202.1X.query.6.catalog_sales.catalog_returns.16.3.pig
+file
+
+
+
+add
+
+21H21M41S892476112.1X.query.6.catalog_sales.catalog_returns.18.17.pig
+file
+
+
+
+add
+
+21H21M41S897274914.1X.query.6.promotion.item.5.1.pig
+file
+
+
+
+add
+
+21H21M41S901760121.1X.query.6.store_sales.store_returns.10.10.pig
+file
+
+
+
+add
+
+21H21M41S906111687.1X.query.6.store_sales.store_returns.3.3.pig
+file
+
+
+
+add
+
+21H21M41S913919804.1X.query.6.web_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M41S918209226.1X.query.6.web_sales.promotion.17.1.pig
+file
+
+
+
+add
+
+21H21M41S922448275.1X.query.6.web_sales.web_returns.18.14.pig
+file
+
+
+
+add
+
+21H21M41S927064579.1X.query.6.web_sales.web_returns.4.3.pig
+file
+
+
+
+add
+
+21H21M41S931323152.1X.query.6.web_sales.web_site.14.1.pig
+file
+
+
+
+add
+
+21H21M41S935681174.1X.query.75.web_sales.customer_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M41S940348826.1X.query.75.web_sales.customer.5.1.pig
+file
+
+
+
+add
+
+21H21M41S944790093.1X.query.75.web_sales.customer_address.8.1.pig
+file
+
+
+
+add
+
+21H21M41S952278527.1X.query.75.web_sales.household_demographics.7.1.pig
+file
+
+
+
+add
+
+21H21M41S956549523.1X.query.75.web_sales.item.4.1.pig
+file
+
+
+
+add
+
+21H21M41S960780532.1X.query.75.web_sales.ship_mode.15.1.pig
+file
+
+
+
+add
+
+21H21M41S965211406.1X.query.75.web_sales.time_dim.2.1.pig
+file
+
+
+
+add
+
+21H21M41S970472515.1X.query.75.web_sales.warehouse.16.1.pig
+file
+
+
+
+add
+
+21H21M41S974927628.1X.query.75.web_sales.web_page.13.1.pig
+file
+
+
+
+add
+
+21H21M41S983753309.1X.query.75.web_sales.web_site.14.1.pig
+file
+
+
+
+add
+
+21H21M41S988251885.1X.query.7.store_sales.customer.4.1.pig
+file
+
+
+
+add
+
+21H21M41S993029340.1X.query.7.store_sales.customer_address.7.1.pig
+file
+
+
+
+add
+
+21H21M41S997777756.1X.query.7.store_sales.customer_demographics.5.1.pig
+file
+
+
+
+add
+
+21H21M42S004729719.1X.query.7.store_sales.date_dim.1.1.pig
+file
+
+
+
+add
+
+21H21M42S009369216.1X.query.7.store_sales.promotion.9.1.pig
+file
+
+
+
+add
+
+21H21M42S014043052.1X.query.96.store_sales.household_demographics.6.1.pig
+file
+
+
+
+add
+
+21H21M42S018403548.1X.query.96.store_sales.store.8.1.pig
+file
+
+
+
+add
+
+21H21M42S029608078.1X.query.96.store_sales.time_dim.2.1.pig
+file
+
+
+
+add
+

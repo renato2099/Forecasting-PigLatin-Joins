@@ -1,0 +1,6 @@
+query.31.store_sales.store_sales.10.10.pig
+query.31.web_page.web_page.1.1.pig
+query.33.catalog_sales.catalog_sales.1.1.pig
+query.33.customer.customer.1.1.pig
+query.33.customer_demographics.customer_demographics.1.1.pig
+query.33.date_dim.date_dim.1.1.pig
