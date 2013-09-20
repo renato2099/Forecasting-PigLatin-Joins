@@ -1,0 +1,32 @@
+package labbio.projects.hadoop.executor;
+
+import labbio.projects.hadoop.sampler.impl.SystematicSampler;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.util.ToolRunner;
+
+public class SysSmpExec {
+	
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		String[] arg0 = {"true"};
+		try {
+			
+			// from a file of 2880404 lines a sampling of 0.01 resulted in 25047 samples
+			// this error is due to the estimation of the record size. We always take the
+			// first line as if all lines were the same, but they are not, maybe the first
+			// one is the smallest one.
+			
+			SystematicSampler sSampler = new SystematicSampler(new Path("file:///mnt/tpcDS/data/store_sales.dat"), 0.01);
+			int retCode = ToolRunner.run(sSampler,arg0);
+			Object[] objSampled = sSampler.getSample();
+			
+			for(Object o : objSampled)
+				System.out.println(o.toString());
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

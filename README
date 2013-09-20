@@ -1,1 +1,6 @@
-Leveraging PigLatin execution logs to try to forecast PigLatin joins performance.
+Forecasting PigLatin Jobs
+=========================
+This project leverages PigLatin execution logs to try to forecast PigLatin
+joins time execution. It was developed using TPC-DS by extracting all the
+joins from the queries it had, and also the data generation tool provided
+by it.

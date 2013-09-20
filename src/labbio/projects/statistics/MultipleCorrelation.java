@@ -1,21 +1,4 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-package labbio.projects.analysis;
+package labbio.projects.statistics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,14 +7,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-import labbio.projects.statistics.DataPoint;
-import labbio.projects.statistics.DataSet;
-import labbio.projects.statistics.Observation;
-
-/**
- * Class used to run MultiCorrelation Analysis
- * @author renatomarroquin
- */
 public class MultipleCorrelation {
    
     public static HashMap<String, Object> goVariables = new HashMap<String, Object> ();
@@ -56,231 +31,196 @@ public class MultipleCorrelation {
 	 */
 	static double TOLERANCE = 0.00000001;
 	
-//    public static void main(String[] args) {
-//       
-//        if (initialize()){
-//            multipleCorrelation();
-//            MultipleCorrelation obj = new MultipleCorrelation();
-//            obj.init(goDataSet);
-//            Observation loObs = new Observation(0.0);
-//            loObs.setIndependentValue("Independent Variable1", 13.0);
-//            loObs.setIndependentValue("Independent Variable2", 15.0);
-//            loObs.setIndependentValue("Independent Variable3", 15.0);
-//            
-//            System.out.println(obj.printt());
-//            System.out.println(obj.forecast(loObs));
-//            
-//            System.out.println("Execution Completed.");
-//        }
-//        else
-//            System.out.println("Execution Incompleted.");
-//    }
-    
-    /**
-     * Method for configuring method variables' names
-     * @param pVarNames
-     */
-	public void setVarNames(String pVarNames[]){
-		for(String varName : pVarNames)
-			goVarNames.add(varName);
-	}
-	
-	/**
-	 * Constructs the data set to be processed from the data passed
-	 * @param pObsData		data to construct the dataSet
-	 * @return objDataSet	the dataSet constructed
-	 */
-	public static DataSet constructDataSet(double[][] pObsData){
-		
-		DataSet objDataSet = new DataSet();
-		// cols lenght should be the same as goVarNames - 1 
-		// because the last one is the observation
-		for (int cntRows = 0; cntRows < pObsData.length; cntRows++){
-			
-			Observation loObs = new Observation(0.0);
-			
-			for (int cntCols = 0; cntCols < pObsData[cntRows].length; cntCols++){
-		        if (cntCols == pObsData[cntRows].length-1)
-		        	loObs.setDependentValue(pObsData[cntRows][cntCols]);
-		        else
-		        	loObs.setIndependentValue(goVarNames.get(cntCols), pObsData[cntRows][cntCols]);
-			}
-			
-			objDataSet.add(loObs);
-		}
-		
-		return objDataSet;
-	}
-//    public static boolean initialize(){
-//       
-//        ArrayList<Double> loData = new ArrayList<Double>();
-//       
-//        // Independent Variable1
-//        loData.add(12.0);
-//        loData.add(14.0);
-//        loData.add(15.0);
-//        loData.add(16.0);
-//        loData.add(18.0);
-//        goVariables.put("Independent Variable1", loData);
-//        goVarNames.add("Independent Variable1");
-//       
-//        //goVariables.put("Independent Variable1", mean(loData));
-//        //goVariables.put("Independent Variable1", standDev(loData, false));
-//       
-//        loData = new ArrayList<Double>();
-//       
-//        loData.add(32.0);
-//        loData.add(35.0);
-//        loData.add(45.0);
-//        loData.add(50.0);
-//        loData.add(65.0);
-//        goVariables.put("Independent Variable2", loData);
-//        goVarNames.add("Independent Variable2");
-//        //goVariables.put("Independent Variable2", mean(loData));
-//        //goVariables.put("Independent Variable2", standDev(loData, false));
-//       
-//        loData = new ArrayList<Double>();
-//       
-//        loData.add(350000.0);
-//        loData.add(399765.0);
-//        loData.add(429000.0);
-//        loData.add(435000.0);
-//        loData.add(433000.0);
-//        goVariables.put("Dependent Variable1", loData);
-//        goVarNames.add("Dependent Variable1");
-//        //goVariables.put("Dependent Variable1", mean(loData));
-//        //goVariables.put("Dependent Variable1", standDev(loData, false));
-//       
-//        //System.out.println(mean(loData));
-//        //System.out.println(standDev(loData, false));
-//        //System.out.println(binaryCorrelation((ArrayList)goVariables.get("Independent Variable1"), (ArrayList)goVariables.get("Independent Variable2")));
-//       
-//        /*Observation loObs = new Observation(350000.0);
-//        loObs.setIndependentValue("Independent Variable1", 12.0);
-//        loObs.setIndependentValue("Independent Variable2", 32.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(399765.0);
-//        loObs.setIndependentValue("Independent Variable1", 14.0);
-//        loObs.setIndependentValue("Independent Variable2", 35.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(429000.0);
-//        loObs.setIndependentValue("Independent Variable1", 15.0);
-//        loObs.setIndependentValue("Independent Variable2", 45.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(435000.0);
-//        loObs.setIndependentValue("Independent Variable1", 16.0);
-//        loObs.setIndependentValue("Independent Variable2", 50.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(433000.0);
-//        loObs.setIndependentValue("Independent Variable1", 18.0);
-//        loObs.setIndependentValue("Independent Variable2", 65.0);
-//        goDataSet.add(loObs);*/
-//        Observation loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 15.0);
-//        loObs.setIndependentValue("Independent Variable2", 15.0);
-//        loObs.setIndependentValue("Independent Variable3", 13.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 14.0);
-//        loObs.setIndependentValue("Independent Variable2", 13.0);
-//        loObs.setIndependentValue("Independent Variable3", 12.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 16.0);
-//        loObs.setIndependentValue("Independent Variable2", 13.0);
-//        loObs.setIndependentValue("Independent Variable3", 14.0);
-//        goDataSet.add(loObs);
-//        
-//        
-//        loObs = new Observation(15.0);
-//        loObs.setIndependentValue("Independent Variable1", 20.0);
-//        loObs.setIndependentValue("Independent Variable2", 14.0);
-//        loObs.setIndependentValue("Independent Variable3", 16.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(16.0);
-//        loObs.setIndependentValue("Independent Variable1", 18.0);
-//        loObs.setIndependentValue("Independent Variable2", 18.0);
-//        loObs.setIndependentValue("Independent Variable3", 17.0);
-//        goDataSet.add(loObs);
-//        
-//        loObs = new Observation(15.0);
-//        loObs.setIndependentValue("Independent Variable1", 16.0);
-//        loObs.setIndependentValue("Independent Variable2", 17.0);
-//        loObs.setIndependentValue("Independent Variable3", 15.0);
-//        goDataSet.add(loObs);
-//        
-//        //7
-//        loObs = new Observation(12.0);
-//        loObs.setIndependentValue("Independent Variable1", 13.0);
-//        loObs.setIndependentValue("Independent Variable2", 15.0);
-//        loObs.setIndependentValue("Independent Variable3", 11.0);
-//        goDataSet.add(loObs);
-//        
-//        //8
-//        loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 16.0);
-//        loObs.setIndependentValue("Independent Variable2", 14.0);
-//        loObs.setIndependentValue("Independent Variable3", 15.0);
-//        goDataSet.add(loObs);
-//        
-//        //9
-//        loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 15.0);
-//        loObs.setIndependentValue("Independent Variable2", 14.0);
-//        loObs.setIndependentValue("Independent Variable3", 13.0);
-//        goDataSet.add(loObs);
-//        
-//        //10
-//        loObs = new Observation(13.0);
-//        loObs.setIndependentValue("Independent Variable1", 14.0);
-//        loObs.setIndependentValue("Independent Variable2", 13.0);
-//        loObs.setIndependentValue("Independent Variable3", 10.0);
-//        goDataSet.add(loObs);
-//        
-//        //11
-//        loObs = new Observation(11.0);
-//        loObs.setIndependentValue("Independent Variable1", 12.0);
-//        loObs.setIndependentValue("Independent Variable2", 12.0);
-//        loObs.setIndependentValue("Independent Variable3", 10.0);
-//        goDataSet.add(loObs);
-//
-//        //12
-//        loObs = new Observation(14.0);
-//        loObs.setIndependentValue("Independent Variable1", 16.0);
-//        loObs.setIndependentValue("Independent Variable2", 11.0);
-//        loObs.setIndependentValue("Independent Variable3", 14.0);
-//        goDataSet.add(loObs);
-//        
-//        //13
-//        loObs = new Observation(15.0);
-//        loObs.setIndependentValue("Independent Variable1", 17.0);
-//        loObs.setIndependentValue("Independent Variable2", 16.0);
-//        loObs.setIndependentValue("Independent Variable3", 15.0);
-//        goDataSet.add(loObs);
-//        
-//        //14
-//        loObs = new Observation(15.0);
-//        loObs.setIndependentValue("Independent Variable1", 19.0);
-//        loObs.setIndependentValue("Independent Variable2", 14.0);
-//        loObs.setIndependentValue("Independent Variable3", 16.0);
-//        goDataSet.add(loObs);        
-//        
-//        //15
-//        loObs = new Observation(15.0);
-//        loObs.setIndependentValue("Independent Variable1", 13.0);
-//        loObs.setIndependentValue("Independent Variable2", 15.0);
-//        loObs.setIndependentValue("Independent Variable3", 10.0);
-//        goDataSet.add(loObs);
-//        
-//        return true;
-//    }
+    public static void main(String[] args) {
+       
+        if (initialize()){
+            multipleCorrelation();
+            MultipleCorrelation obj = new MultipleCorrelation();
+            obj.init(goDataSet);
+            Observation loObs = new Observation(0.0);
+            loObs.setIndependentValue("Independent Variable1", 13.0);
+            loObs.setIndependentValue("Independent Variable2", 15.0);
+            loObs.setIndependentValue("Independent Variable3", 15.0);
+            
+            System.out.println(obj.printt());
+            System.out.println(obj.forecast(loObs));
+            
+            System.out.println("Execution Completed.");
+        }
+        else
+            System.out.println("Execution Incompleted.");
+    }
+   
+    public static boolean initialize(){
+       
+        ArrayList<Double> loData = new ArrayList<Double>();
+       
+        // Independent Variable1
+        loData.add(12.0);
+        loData.add(14.0);
+        loData.add(15.0);
+        loData.add(16.0);
+        loData.add(18.0);
+        goVariables.put("Independent Variable1", loData);
+        goVarNames.add("Independent Variable1");
+       
+        //goVariables.put("Independent Variable1", mean(loData));
+        //goVariables.put("Independent Variable1", standDev(loData, false));
+       
+        loData = new ArrayList<Double>();
+       
+        loData.add(32.0);
+        loData.add(35.0);
+        loData.add(45.0);
+        loData.add(50.0);
+        loData.add(65.0);
+        goVariables.put("Independent Variable2", loData);
+        goVarNames.add("Independent Variable2");
+        //goVariables.put("Independent Variable2", mean(loData));
+        //goVariables.put("Independent Variable2", standDev(loData, false));
+       
+        loData = new ArrayList<Double>();
+       
+        loData.add(350000.0);
+        loData.add(399765.0);
+        loData.add(429000.0);
+        loData.add(435000.0);
+        loData.add(433000.0);
+        goVariables.put("Dependent Variable1", loData);
+        goVarNames.add("Dependent Variable1");
+        //goVariables.put("Dependent Variable1", mean(loData));
+        //goVariables.put("Dependent Variable1", standDev(loData, false));
+       
+        //System.out.println(mean(loData));
+        //System.out.println(standDev(loData, false));
+        //System.out.println(binaryCorrelation((ArrayList)goVariables.get("Independent Variable1"), (ArrayList)goVariables.get("Independent Variable2")));
+       
+        /*Observation loObs = new Observation(350000.0);
+        loObs.setIndependentValue("Independent Variable1", 12.0);
+        loObs.setIndependentValue("Independent Variable2", 32.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(399765.0);
+        loObs.setIndependentValue("Independent Variable1", 14.0);
+        loObs.setIndependentValue("Independent Variable2", 35.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(429000.0);
+        loObs.setIndependentValue("Independent Variable1", 15.0);
+        loObs.setIndependentValue("Independent Variable2", 45.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(435000.0);
+        loObs.setIndependentValue("Independent Variable1", 16.0);
+        loObs.setIndependentValue("Independent Variable2", 50.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(433000.0);
+        loObs.setIndependentValue("Independent Variable1", 18.0);
+        loObs.setIndependentValue("Independent Variable2", 65.0);
+        goDataSet.add(loObs);*/
+        Observation loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 15.0);
+        loObs.setIndependentValue("Independent Variable2", 15.0);
+        loObs.setIndependentValue("Independent Variable3", 13.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 14.0);
+        loObs.setIndependentValue("Independent Variable2", 13.0);
+        loObs.setIndependentValue("Independent Variable3", 12.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 16.0);
+        loObs.setIndependentValue("Independent Variable2", 13.0);
+        loObs.setIndependentValue("Independent Variable3", 14.0);
+        goDataSet.add(loObs);
+        
+        
+        loObs = new Observation(15.0);
+        loObs.setIndependentValue("Independent Variable1", 20.0);
+        loObs.setIndependentValue("Independent Variable2", 14.0);
+        loObs.setIndependentValue("Independent Variable3", 16.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(16.0);
+        loObs.setIndependentValue("Independent Variable1", 18.0);
+        loObs.setIndependentValue("Independent Variable2", 18.0);
+        loObs.setIndependentValue("Independent Variable3", 17.0);
+        goDataSet.add(loObs);
+        
+        loObs = new Observation(15.0);
+        loObs.setIndependentValue("Independent Variable1", 16.0);
+        loObs.setIndependentValue("Independent Variable2", 17.0);
+        loObs.setIndependentValue("Independent Variable3", 15.0);
+        goDataSet.add(loObs);
+        
+        //7
+        loObs = new Observation(12.0);
+        loObs.setIndependentValue("Independent Variable1", 13.0);
+        loObs.setIndependentValue("Independent Variable2", 15.0);
+        loObs.setIndependentValue("Independent Variable3", 11.0);
+        goDataSet.add(loObs);
+        
+        //8
+        loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 16.0);
+        loObs.setIndependentValue("Independent Variable2", 14.0);
+        loObs.setIndependentValue("Independent Variable3", 15.0);
+        goDataSet.add(loObs);
+        
+        //9
+        loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 15.0);
+        loObs.setIndependentValue("Independent Variable2", 14.0);
+        loObs.setIndependentValue("Independent Variable3", 13.0);
+        goDataSet.add(loObs);
+        
+        //10
+        loObs = new Observation(13.0);
+        loObs.setIndependentValue("Independent Variable1", 14.0);
+        loObs.setIndependentValue("Independent Variable2", 13.0);
+        loObs.setIndependentValue("Independent Variable3", 10.0);
+        goDataSet.add(loObs);
+        
+        //11
+        loObs = new Observation(11.0);
+        loObs.setIndependentValue("Independent Variable1", 12.0);
+        loObs.setIndependentValue("Independent Variable2", 12.0);
+        loObs.setIndependentValue("Independent Variable3", 10.0);
+        goDataSet.add(loObs);
+
+        //12
+        loObs = new Observation(14.0);
+        loObs.setIndependentValue("Independent Variable1", 16.0);
+        loObs.setIndependentValue("Independent Variable2", 11.0);
+        loObs.setIndependentValue("Independent Variable3", 14.0);
+        goDataSet.add(loObs);
+        
+        //13
+        loObs = new Observation(15.0);
+        loObs.setIndependentValue("Independent Variable1", 17.0);
+        loObs.setIndependentValue("Independent Variable2", 16.0);
+        loObs.setIndependentValue("Independent Variable3", 15.0);
+        goDataSet.add(loObs);
+        
+        //14
+        loObs = new Observation(15.0);
+        loObs.setIndependentValue("Independent Variable1", 19.0);
+        loObs.setIndependentValue("Independent Variable2", 14.0);
+        loObs.setIndependentValue("Independent Variable3", 16.0);
+        goDataSet.add(loObs);        
+        
+        //15
+        loObs = new Observation(15.0);
+        loObs.setIndependentValue("Independent Variable1", 13.0);
+        loObs.setIndependentValue("Independent Variable2", 15.0);
+        loObs.setIndependentValue("Independent Variable3", 10.0);
+        goDataSet.add(loObs);
+        
+        return true;
+    }
    
     /**
      * @param loData     ArrayList containing the data.
@@ -330,7 +270,7 @@ public class MultipleCorrelation {
     /**
      * @param loData1    ArrayList containing the data for the first variable.
      * @param loData2    ArrayList containing the data for the second variable.
-     * @return    Pearson���s Correlation Coefficient
+     * @return    Pearson???s Correlation Coefficient
      */
     protected static Double binaryCorrelation(ArrayList<Double> loData1, ArrayList<Double> loData2){
        
@@ -427,7 +367,7 @@ public class MultipleCorrelation {
 			}
 
 		// Solve equations to derive coefficients
-		double coeff[] = GaussElimination(a);
+		double coeff[] = GaussElimination( a );
 
 		// Assign coefficients to independent variables
 		intercept = coeff[0];

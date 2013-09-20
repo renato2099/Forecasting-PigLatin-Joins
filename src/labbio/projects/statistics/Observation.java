@@ -17,7 +17,7 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //
 
-package labbio.projects.analysis.dataset;
+package labbio.projects.statistics;
 
 
 import java.util.Enumeration;
@@ -58,14 +58,10 @@ public class Observation implements DataPoint
 	 */
 	public Observation( double dependentValue )
 	{
-		this.setDependentValue(dependentValue);
+		this.dependentValue = dependentValue;
 		independentValues = new Hashtable();
 	}
 
-	public Observation()
-	{
-		independentValues = new Hashtable();
-	}
 	/**
 	 * Like a copy constructor, but constructs a new Observation object by
 	 * making a copy of the values from the given data point.
@@ -73,7 +69,7 @@ public class Observation implements DataPoint
 	 */
 	public Observation( DataPoint dataPoint )
 	{
-		this.setDependentValue(dataPoint.getDependentValue());
+		this.dependentValue = dataPoint.getDependentValue();
 
 		String[] varNames = dataPoint.getIndependentVariableNames();
 		int numberOfVars = varNames.length;
@@ -161,7 +157,7 @@ public class Observation implements DataPoint
 	 */
 	public boolean equals( DataPoint dp )
 	{
-		if ( getDependentValue() != dp.getDependentValue() )
+		if ( dependentValue != dp.getDependentValue() )
 			return false;
 
 		// Get a list of independent variable names
@@ -206,7 +202,7 @@ public class Observation implements DataPoint
 				result += key + "=" + value + ",";
 			}
 
-		return result + "dependentValue=" + getDependentValue() + ")";
+		return result + "dependentValue=" + dependentValue + ")";
 	}
 }
 /*

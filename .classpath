@@ -7,5 +7,7 @@
 	<classpathentry kind="lib" path="lib/htmlparser.jar"/>
 	<classpathentry kind="lib" path="lib/sitecapturer.jar"/>
 	<classpathentry kind="lib" path="lib/thumbelina.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-0.20.2-core.jar"/>
 	<classpathentry kind="output" path="target"/>
 </classpath>

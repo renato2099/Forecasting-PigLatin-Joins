@@ -1,0 +1,33 @@
+package labbio.projects.hadoop.executor;
+
+import org.apache.hadoop.fs.Path;
+
+import labbio.projects.hadoop.estimates.job.JobParamsEstimator;
+
+public class JobParamsEstimatorExec {
+	/**
+	 * 1.9K		/mnt/tpcDS/data/call_center.dat
+	 * 1.6M		/mnt/tpcDS/data/catalog_page.dat
+	 * 283M		/mnt/tpcDS/data/catalog_sales.dat
+	 * 9.9M		/mnt/tpcDS/data/date_dim.dat
+	 * 
+	 * 1891		/user/hadoop/pigData/call_center.dat
+	 * 1631792	/user/hadoop/pigData/catalog_page.dat
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//TODO change this into a test class
+		//[true, /mnt/tpcDS/data/call_center.dat, /mnt/tpcDS/data/reason.dat]
+		//false pigData/call_center.dat pigData/reason.dat
+		String arg[] = new String[args.length -1];
+		for (int iCnt = 0; iCnt < args.length-1; iCnt ++)
+			arg[iCnt] = args[iCnt+1];
+		JobParamsEstimator.initializer(args[0],arg);
+		System.out.println("Block Size of the System " + JobParamsEstimator.getBlockSize() + " bytes");
+		System.out.println("Total Input Bytes: "+ JobParamsEstimator.getTotalInputBytes());
+		System.out.println("Approximate Number of Mappers: "+ JobParamsEstimator.estimateNumberOfMappers());
+		System.out.println("Approximate Number of Reducers: "+ JobParamsEstimator.estimateNumberOfReducers());
+		System.out.println("Approximate Number of Total Input Records: "+ JobParamsEstimator.getTotalInputRecords());
+	}
+}

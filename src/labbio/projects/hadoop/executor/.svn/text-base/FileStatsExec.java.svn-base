@@ -1,0 +1,76 @@
+package labbio.projects.hadoop.executor;
+
+import java.io.File;
+
+import labbio.projects.hadoop.file.stats.FileStats;
+import labbio.projects.hadoop.sampler.Sampler;
+import labbio.projects.hadoop.sampler.impl.ClusterSampler;
+import labbio.projects.hadoop.sampler.impl.SystematicSampler;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.util.ToolRunner;
+
+
+public class FileStatsExec {
+
+	/**
+	 * Array containing the file names to be checked.
+	 */
+	public String[] fileNames;
+	
+	/**
+	 * Path where the files are.
+	 */
+	private String dataPath;
+	
+	/**
+	 * Default data files' location.
+	 */
+	public static String HDFS_DATA_LOCATION = "pigData/";
+	public static String LOCAL_DATA_LOCATION = "/mnt/tpcDS/data/";
+	public static String DATA_LOCATION;
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			if(args[0].equals("true")){
+				DATA_LOCATION = HDFS_DATA_LOCATION;
+			}
+			else if (args[0].equals("false")){
+				DATA_LOCATION = LOCAL_DATA_LOCATION;
+			}
+			
+			Path pathR = new Path(HDFS_DATA_LOCATION + "call_center.dat");
+			TextInputFormat inf = new TextInputFormat();
+			ClusterSampler objSamplerR = new ClusterSampler(pathR, 0.1,Integer.MAX_VALUE,1);
+	        
+			String []execMode = {"false"};
+	        
+			if(ToolRunner.run(objSamplerR,execMode)!=0) System.out.println("dio mierda");
+			objSamplerR.getSample();
+		        
+		    FileStats R1FileStats = new FileStats(pathR, inf, objSamplerR.getJobObj());
+		    double d = R1FileStats.getApproxCardinality();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	
+	/**
+	 * Method to get the file names within the data path specified. 
+	 */
+	public void getFileNames(){
+		
+		File fo = new File(LOCAL_DATA_LOCATION);
+		if(fo.isDirectory())
+			this.fileNames = fo.list();
+		
+	}
+	
+}

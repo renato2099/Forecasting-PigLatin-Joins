@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rmogrovejo/!svn/ver/84/SamplerClient/trunk/src/labbio/projects/hadoop/executor
+END
+ClusterSamplerExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rmogrovejo/!svn/ver/144/SamplerClient/trunk/src/labbio/projects/hadoop/executor/ClusterSamplerExec.java
+END
+JobParamsEstimatorExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rmogrovejo/!svn/ver/144/SamplerClient/trunk/src/labbio/projects/hadoop/executor/JobParamsEstimatorExec.java
+END
+LocalInputSamplerExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rmogrovejo/!svn/ver/144/SamplerClient/trunk/src/labbio/projects/hadoop/executor/LocalInputSamplerExec.java
+END
+SysSmpExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/rmogrovejo/!svn/ver/109/SamplerClient/trunk/src/labbio/projects/hadoop/executor/SysSmpExec.java
+END
+FileStatsExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rmogrovejo/!svn/ver/144/SamplerClient/trunk/src/labbio/projects/hadoop/executor/FileStatsExec.java
+END
+JoinEstimateExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rmogrovejo/!svn/ver/144/SamplerClient/trunk/src/labbio/projects/hadoop/executor/JoinEstimateExec.java
+END
+FileCardinalityExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/rmogrovejo/!svn/ver/141/SamplerClient/trunk/src/labbio/projects/hadoop/executor/FileCardinalityExec.java
+END

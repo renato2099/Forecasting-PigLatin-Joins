@@ -1,0 +1,208 @@
+package labbio.projects.hadoop.sampler.impl;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import labbio.projects.hadoop.executor.LocalInputSamplerExec;
+import labbio.projects.hadoop.file.stats.FileStats;
+import labbio.projects.hadoop.sampler.Sampler;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.mapreduce.InputFormat;
+import org.apache.hadoop.mapreduce.InputSplit;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.RecordReader;
+import org.apache.hadoop.mapreduce.TaskAttemptContext;
+import org.apache.hadoop.mapreduce.TaskAttemptID;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.util.StringUtils;
+import org.apache.hadoop.util.Tool;
+
+/**
+ * Sample from s splits at regular intervals.
+ * Useful for sorted data.
+ */
+public class IntervalSampler extends Configured implements Tool, Sampler {
+    
+	/**
+	 * frequency with which records will be emitted.
+	 */
+	private final double freq;
+	
+	/**
+	 * The maximum number of splits to examine. There might be too many.
+	 */
+    private final int maxSplitsSampled;
+    
+    /**
+     * Path of the file that will be sampled. 
+     */
+	public Path filePath = null;
+	
+	/**
+     * Configuration parameters. 
+     * Configuration and Job object.
+     */
+    private Configuration conf;
+    private Job job;
+    
+    /**
+     * Create a new IntervalSampler sampling all splits.
+     * @param freq The frequency with which records will be emitted.
+     */
+    public IntervalSampler(double freq) {
+      this(freq, Integer.MAX_VALUE);
+    }
+
+    /**
+     * Create a new IntervalSampler.
+     * @param freq The frequency with which records will be emitted.
+     * @param maxSplitsSampled The maximum number of splits to examine.
+     * @see #getSample
+     */
+    public IntervalSampler(double freq, int maxSplitsSampled) {
+      this.freq = freq;
+      this.maxSplitsSampled = maxSplitsSampled;
+    }
+
+    /**
+     * For each split sampled, emit when the ratio of the number of records
+     * retained to the total record count is less than the specified
+     * frequency.
+     */
+    @SuppressWarnings("unchecked") // ArrayList::toArray doesn't preserve type
+    @Override
+    public Object[] getSample() {
+    	
+    	TextInputFormat inf = new TextInputFormat();
+		List splits;
+		
+		try {
+			splits = inf.getSplits(job);
+				
+			// TODO: if the percentage to be sampled is way too big, the arrayList will not work.
+		    ArrayList samples = new ArrayList();
+		    FileStats fileStatsR = new FileStats(filePath,inf,job);
+	
+		    int splitsToSample = Math.min(maxSplitsSampled, splits.size());
+		    System.out.println("DEBUG" + String.valueOf(splits.size()));
+		    long records = 0;
+		    long kept = 0;
+      
+		    for (int i = 0; i < splitsToSample; ++i) {
+    	  
+		        TaskAttemptContext samplingContext = new TaskAttemptContext(job.getConfiguration(), new TaskAttemptID());
+		        RecordReader reader = inf.createRecordReader(((InputSplit)splits.get(i)), samplingContext);
+        
+		        reader.initialize(((InputSplit)splits.get(i)), samplingContext);
+        
+		        while (reader.nextKeyValue()) {
+		          ++records;
+		          if ((double) kept / records < freq) {
+		            //samples.add(ReflectionUtils.copy(job.getConfiguration(),reader.getCurrentKey(), null));
+		        	  String valueSampled = getValueFromLine(reader.getCurrentValue().toString());
+		        	  samples.add(valueSampled);
+		            ++kept;
+		          }
+		        }
+		        reader.close();
+		    }
+		    
+		    return (Object[])samples.toArray();
+		    
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+    }
+
+	@Override
+	public String getValueFromLine(String line) {
+		int colSampled = getColumnSampled();
+		char colSeparator = getColumnSeparator();
+		String[] parts = StringUtils.split(line.trim(), StringUtils.ESCAPE_CHAR,colSeparator);
+		String value = "";
+		
+		if (colSampled <= parts.length)
+			value = parts[colSampled-1];
+		
+		return value;
+	}
+
+	@Override
+	public void configureJob(Configuration pConf, String pExecMode) {
+		if ( pExecMode.equals("true") ) {
+			pConf.set("fs.default.name", "file:///");
+			pConf.set("mapred.job.tracker", "local");
+		}
+		else{
+			pConf.set("fs.default.name", FS_DEFAULT_NAME);
+			pConf.set("mapred.job.tracker", DEFAULT_JOB_TRACKER);
+		}
+	}
+
+	@Override
+	public int run(String[] arg0) throws Exception {
+		try{
+			// configure the job
+			this.conf = getConf();
+			this.job = new Job(conf, "Interval Sampler");
+			configureJob(conf,arg0[0]);
+
+			FileInputFormat.addInputPath(job, this.getFilePath());
+			
+			this.job.setInputFormatClass(TextInputFormat.class);
+			this.job.setMapOutputKeyClass(TextInputFormat.class);
+			this.job.setJarByClass(ClusterSampler.class);
+			
+			// TODO MapReduce job for sampling should execute here
+			
+			return 0;
+		}
+		catch (Exception e){
+			e.printStackTrace();
+			return 1;
+		}
+	}
+	@Override
+	public Job getJobObj(){
+		return this.job;
+	}
+	
+	/**
+	 * Method to get the index of the column sampled.
+	 */
+	public int getColumnSampled(){
+		return DEFAULT_COLUMN_SAMPLED;
+	}
+	
+	/**
+	 * Method to get the column separator.
+	 */
+	public char getColumnSeparator(){
+		return DEFAULT_COLUMN_SEPARATOR;
+	}
+
+	/**
+	 * @param fILEPATH the fILEPATH to set
+	 */
+	protected void setFilePath(Path fILEPATH) {
+		filePath = fILEPATH;
+	}
+
+	/**
+	 * @return the fILEPATH
+	 */
+	protected Path getFilePath() {
+		return filePath;
+	}
+  }
